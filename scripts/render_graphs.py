@@ -88,7 +88,10 @@ def main():
         fig.text(.5,.015,"Compiled from source. Dashed lines are conditional paths.",ha="center",fontsize=9,color="#52665c")
         fig.tight_layout(rect=(0,.035,1,.98))
         for extension in ["png", "svg"]:
-            fig.savefig(output / f"{name}.{extension}",dpi=180,facecolor="white")
+            path = output / f"{name}.{extension}"
+            fig.savefig(path,dpi=180,facecolor="white")
+            if extension == "svg":
+                path.write_text("\n".join(line.rstrip() for line in path.read_text().splitlines()) + "\n")
         plt.close(fig)
     print("Both compiled graph diagrams exported as Mermaid, JSON, SVG and PNG.")
 
