@@ -2,6 +2,7 @@ import hashlib
 import json
 import re
 from functools import lru_cache
+from threading import RLock
 
 import numpy as np
 from rank_bm25 import BM25Okapi
@@ -14,8 +15,18 @@ def tokens(text):
     return re.findall(r"[a-z0-9+#.-]+", text.lower())
 
 
-@lru_cache(maxsize=8)
+_index_lock = RLock()
+
+
 def build_index(serialized, backend):
+    # HTTP searches can overlap while CPU work runs outside the API event loop.
+    # Serialize cache creation so identical requests cannot race the temp file.
+    with _index_lock:
+        return _cached_index(serialized, backend)
+
+
+@lru_cache(maxsize=8)
+def _cached_index(serialized, backend):
     items = json.loads(serialized)
     texts = [
         item["title"]

@@ -16,3 +16,10 @@ Groq inference is used by GigBid itself and by explicitly labeled research runs.
 Model output is never accepted as portfolio truth or as human evaluation labels.
 No hidden evaluation set was used, no deadline or commit history was fabricated,
 and missing external results are recorded as unavailable.
+
+Cloud deployment exposed a memory failure missed by the initial local smoke
+test: sign-in after embeddings warmed exceeded the free instance's 512 MiB.
+The compact profile now shares the Redis/Arq worker with the API process, and
+the smoke check repeats sign-in after retrieval. CPU search runs outside the
+API event loop with serialized index-cache creation. Password hashing parameters
+and model weights were retained. The full Compose profile keeps separate workers.

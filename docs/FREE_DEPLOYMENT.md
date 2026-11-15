@@ -10,27 +10,38 @@ service or trial-to-paid upgrade is included in `render.yaml`.
 | Component | Free placement | Persistence / limit |
 |---|---|---|
 | React, FastAPI and three MCP surfaces | One Render Free Web Service | Sleeps on idle; local disk is ephemeral |
-| Arq worker | Separate supervised process in that same web instance | Stops while the free instance sleeps |
+| Arq worker | Background Arq task sharing the API process | Redis queue; stops while the free instance sleeps |
 | Application, checkpoints, audit, memory and uploaded text | Neon Free Postgres | External durable storage within its free quotas |
 | Queue/locks | Render Free Key Value | In-memory only; DB recovery reconstructs queued work after loss |
 | Open vectors | Qdrant Cloud Free cluster | External authenticated vector store within free capacity |
 | LLM | Existing Groq Free account/key | Provider rate/token limits apply; no paid upgrade configured |
 | Tracing | Saved DB traces; full Phoenix in local Compose | A hosted OTLP collector is optional and needs its own free-account configuration |
 
-The compact container runs the API and worker as separate processes. Agent work
-stays outside web requests. Each MCP server remains independently packaged and
+The compact container shares one Python process between the API and background
+Arq worker, avoiding duplicate imports under the 512 MiB ceiling. Agent work
+stays in Redis-managed background jobs, outside web request handlers. CPU
+retrieval runs in a thread so health checks remain responsive. The full Compose
+profile retains independent API and worker processes. Each MCP server remains independently packaged and
 mounts at `/portfolio/mcp`, `/marketplace/mcp` or `/workspace/mcp`; bearer tokens
 are scoped to the intended server. Only Portfolio access tokens are exposed to
 authenticated application users for external read-only MCP hosts.
 
 A local Docker test passed with the exact 512 MiB memory ceiling, real CPU
 embeddings, authenticated HTTP MCP, Redis, Postgres and a durable approval interrupt.
-The final test measured 465.9 MiB in use and a 472.56 MiB peak; see
-`evals/results/free_deployment_smoke.json` for the current observation. The first
-default-batch attempt was killed for exceeding memory. The free profile now uses
-batches of two, one embedding thread and reduced ONNX allocation. This is tight
-headroom for a low-traffic demo, not a load-test or public-host guarantee. Actual
-free-host CPU, storage and network behavior still requires deployment verification.
+See `evals/results/free_deployment_smoke.json` for current memory observations.
+The initial default-batch attempt exceeded memory. Smaller batches passed a
+local test, but cloud testing then exposed another peak: Argon2 sign-in after
+embeddings warmed exceeded 512 MiB in the two-process profile. The compact runtime
+now shares the worker process and explicitly tests three sign-ins after real
+retrieval. Batches remain two, with one embedding thread and reduced ONNX
+allocation. Password hashing parameters and embedding weights remain unchanged.
+This is a low-traffic demo profile, not a load-test or uptime guarantee.
+
+The revised local test measured 353.2 MiB in use and 432.22 MiB peak, including
+three password sign-ins after embedding weights were loaded. Backend checks
+cover the embedded worker's startup/shutdown and degraded health state. Blueprint
+build filters avoid restarting the app for report, documentation and evaluation
+record updates; application/runtime changes still deploy automatically.
 
 ## Why Render for this project
 

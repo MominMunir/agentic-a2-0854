@@ -6,6 +6,18 @@ services:
     dockerfilePath: ./infra/docker/render.Dockerfile
     dockerContext: .
     healthCheckPath: /api/health
+    buildFilter:
+      ignoredPaths:
+        - docs/**
+        - evals/**
+        - evaluation/**
+        - tests/**
+        - README.md
+        - LICENSE
+        - mcp_servers/portfolio/README.md
+        - scripts/build_docs.py
+        - scripts/build_report.py
+        - scripts/verify_public_deployment.py
     envVars:
       - key: APP_ENV
         value: production

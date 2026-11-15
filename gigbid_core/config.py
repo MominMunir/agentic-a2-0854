@@ -47,6 +47,7 @@ class Settings(BaseSettings):
     serve_frontend: bool = False
     portfolio_public_url: str = ""
     worker_concurrency: int = 2
+    embedded_worker: bool = False
     otel_exporter_otlp_endpoint: str = ""
     phoenix_api_key: str = ""
     upwork_mcp_url: str = "https://mcp.upwork.com/mcp"

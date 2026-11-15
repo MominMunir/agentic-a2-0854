@@ -1,3 +1,4 @@
+import asyncio
 from pydantic import Field
 from gigbid_core.config import SOURCE_ROOT
 
@@ -20,7 +21,7 @@ async def search_evidence(
     with db() as session:
         items = records(session, tenant(), "evidence")
     items = [{**item, "_tenant": tenant()} for item in items]
-    found = search(items, requirement, k, filters=filters)
+    found = await asyncio.to_thread(search, items, requirement, k, filters=filters)
     return {"items": [{key: value for key, value in item.items() if key != "_tenant"} for item in found]}
 
 

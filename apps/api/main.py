@@ -47,9 +47,19 @@ async def lifespan(app):
         for server in mounted_mcp:
             await stack.enter_async_context(server.session_manager.run())
         task = asyncio.create_task(local_worker()) if settings().executor == "local" else None
+        queue_worker = None
+        if settings().embedded_worker:
+            from arq.worker import create_worker
+            from worker.main import WorkerSettings
+
+            queue_worker = create_worker(WorkerSettings, handle_signals=False)
+            task = asyncio.create_task(queue_worker.async_run())
+        app.state.queue_worker_task = task if queue_worker else None
         try:
             yield
         finally:
+            if queue_worker:
+                await queue_worker.close()
             if task:
                 task.cancel()
                 with suppress(asyncio.CancelledError):
@@ -168,6 +178,11 @@ async def me(user=Depends(current_user)):
 
 @app.get("/api/health")
 async def health():
+    queue_task = getattr(app.state, "queue_worker_task", None)
+    if settings().embedded_worker and (queue_task is None or queue_task.done()):
+        from fastapi.responses import JSONResponse
+
+        return JSONResponse({"status": "degraded", "detail": "Queue worker is not running"}, status_code=503)
     return {
         "status": "ok",
         "marketplace": settings().marketplace_mode,

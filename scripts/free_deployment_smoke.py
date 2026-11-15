@@ -84,11 +84,12 @@ async def main():
             home = await client.get("/")
             home.raise_for_status()
             assert 'id="root"' in home.text
+            email, password = "compact-" + secrets.token_hex(4) + "@test.local", secrets.token_urlsafe(24)
             auth = await client.post(
                 "/api/auth/register",
                 json={
-                    "email": "compact-" + secrets.token_hex(4) + "@test.local",
-                    "password": secrets.token_urlsafe(24),
+                    "email": email,
+                    "password": password,
                 },
             )
             auth.raise_for_status()
@@ -126,6 +127,12 @@ async def main():
                     break
                 await asyncio.sleep(1)
             assert state["status"] == "awaiting_approval", state.get("error", state["status"])
+            # Password verification allocates Argon2 memory. It must still fit
+            # after real embedding weights and retrieval caches have warmed.
+            for _ in range(3):
+                again = await client.post("/api/auth/login", json={"email": email, "password": password})
+                again.raise_for_status()
+            result["repeat_login_after_embeddings"] = 3
             result.update(
                 frontend=True,
                 authenticated_mcp=True,
