@@ -2,20 +2,51 @@ import json
 import os
 
 from dotenv import load_dotenv
+from sqlalchemy import insert
 
 from gigbid_core.config import ROOT
-from gigbid_core.db import User, db, get, init_db, put
+from gigbid_core.db import Record, User, db, init_db, now
 from gigbid_core.security import passwords
 
 
 def seed_tenant(session, user):
+    # Fetch once and insert as a batch: per-item get/put caused 999 database
+    # statements for a new tenant over the remote database connection.
+    existing = {
+        item.key: item
+        for item in session.query(Record)
+        .filter(Record.tenant == user.id, Record.kind.in_(["evidence", "message", "wallet"]))
+        .all()
+    }
+    missing = []
+    timestamp = now()
+
+    def stage(kind, record_id, payload, refresh=False):
+        key = f"{user.id}:{kind}:{record_id}"
+        encoded = json.dumps(payload)
+        if key in existing:
+            if refresh:
+                existing[key].payload = encoded
+                existing[key].updated = timestamp
+        else:
+            missing.append(
+                dict(
+                    key=key,
+                    tenant=user.id,
+                    kind=kind,
+                    record_id=record_id,
+                    payload=encoded,
+                    updated=timestamp,
+                )
+            )
+
     for item in json.loads((ROOT / "data/synthetic/evidence.json").read_text()):
-        if not get(session, user.id, "evidence", item["id"]):
-            put(session, user.id, "evidence", item["id"], item)
+        stage("evidence", item["id"], item)
     for message in json.loads((ROOT / "data/synthetic/conversations.json").read_text()):
-        put(session, user.id, "message", message["id"], message)
-    if not get(session, user.id, "wallet", "current"):
-        put(session, user.id, "wallet", "current", {"balance": 120, "weekly_spent": 0})
+        stage("message", message["id"], message, refresh=True)
+    stage("wallet", "current", {"balance": 120, "weekly_spent": 0})
+    if missing:
+        session.execute(insert(Record), missing)
 
 
 def main():

@@ -5,6 +5,7 @@ from contextlib import asynccontextmanager, suppress, AsyncExitStack
 
 from fastapi import Depends, FastAPI, File, HTTPException, Request, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.exc import IntegrityError
 
 from agent.handoffs import ApprovalRequest
 from agent.mcp_client import Tools
@@ -129,7 +130,9 @@ login_attempts = {}
 
 
 @app.post("/api/auth/register", response_model=AuthResponse)
-async def register(body: Credentials, response: Response):
+def register(body: Credentials, response: Response):
+    # FastAPI runs synchronous routes in its thread pool. Password hashing and
+    # synchronous database setup must not stall health checks or graph streaming.
     with db() as session:
         if session.query(User).filter_by(email=body.email.lower()).first():
             raise HTTPException(409, "Account already exists")
@@ -139,12 +142,16 @@ async def register(body: Credentials, response: Response):
             profile=Profile().model_dump_json(),
         )
         session.add(user)
-        session.flush()
+        try:
+            session.flush()
+        except IntegrityError:
+            # The unique constraint remains authoritative for concurrent requests.
+            raise HTTPException(409, "Account already exists") from None
         from scripts.seed import seed_tenant
 
         seed_tenant(session, user)
         result = auth_result(user)
-        set_cookie(response, user)
+    set_cookie(response, user)
     return result
 
 
