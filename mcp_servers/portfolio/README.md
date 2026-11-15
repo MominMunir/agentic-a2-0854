@@ -7,7 +7,8 @@ source, date, persona, type, skills, project, industry, outcome and provenance.
 
 ## Install and use from source
 
-Clone the public source when published, then `uv sync --frozen --extra retrieval`.
+Clone [the public source](https://github.com/MominMunir/agentic-a2-0854),
+then `uv sync --frozen --extra retrieval`.
 Run bootstrap and seed with your own environment credentials. To expose only
 your account's evidence to a local MCP host, set `MCP_STDIO_TENANT` to your user ID
 from `/api/auth/me`, and launch:

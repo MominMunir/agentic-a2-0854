@@ -82,6 +82,12 @@ stack, because that deletes persistent volumes.
 
 ## Public GitHub repository: steps required by the PDF
 
+The source has been published to
+[MominMunir/agentic-a2-0854](https://github.com/MominMunir/agentic-a2-0854).
+Use branch `main` when connecting Render. Publication does not change the
+deadline limitation below. The following commands describe initial setup for
+a new copy/repository; the supplied repository is already initialized and pushed.
+
 The public repository must contain this project's required directory structure.
 Use this folder as the repository root; do not upload the containing workspace or
 the reference starter kit. GitHub Actions needs no paid API key for smoke tests.

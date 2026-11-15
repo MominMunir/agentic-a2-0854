@@ -58,7 +58,8 @@ claim that Vercel lacks Python or background-worker support.
 
 1. Create/select Free accounts on Render, Neon and Qdrant Cloud. Do not select
    paid plans, trial upgrades, paid disks or paid workers.
-2. Create the Neon database. Put the connection string into `DATABASE_URL` with
+2. Create the Neon database. In **Connect**, disable **Connection pooling** to
+   copy the direct connection string. Put it into `DATABASE_URL` with
    the `postgresql+psycopg://` prefix. Use the equivalent `postgresql://` URL for
    `CHECKPOINT_URL`; retain the provider's TLS options in both.
 3. Create a Qdrant Free cluster and provide `QDRANT_URL` and `QDRANT_API_KEY`.
@@ -68,12 +69,37 @@ claim that Vercel lacks Python or background-worker support.
 5. Connect the public GitHub repository and create a Blueprint from `render.yaml`.
    Review the proposed resources: exactly one **Free** web service and one **Free**
    Key Value instance, with no Render Postgres database or paid background worker.
+   Repository: `MominMunir/agentic-a2-0854`; branch: `main`; Blueprint path:
+   `render.yaml`. Leave the root directory empty. In Render use **New > Blueprint**.
 6. The starter command derives `APP_URL` from Render's assigned public URL.
    If using a custom domain, set APP_URL explicitly to its HTTPS origin.
 7. After the owner approves the deployment, verify login, a real open-model draft,
    SSE, source deletion, an approval, idle wake-up and a restart. Record the exact
    live URL and commit. Account creation/publication/verification are external
    checkpoints and have not been represented as already completed.
+
+### Values requested by the Blueprint
+
+| Variable | Value to enter privately |
+|---|---|
+| `DATABASE_URL` | Direct Neon URL with `postgresql://` replaced by `postgresql+psycopg://` |
+| `CHECKPOINT_URL` | Original direct Neon URL beginning `postgresql://` |
+| `QDRANT_URL` | Qdrant Free cluster HTTPS endpoint |
+| `QDRANT_API_KEY` | Database API key for that cluster, with collection read/write access |
+| `OPEN_MODEL_API_KEY` | Existing Groq key in the local private `.env` |
+| `TOKEN_ENCRYPTION_KEY` | Existing Fernet key in the local private `.env` |
+| `REVIEWER_EMAIL` | Existing reviewer email in the local private `.env` |
+| `REVIEWER_PASSWORD` | Existing reviewer password in the local private `.env` |
+
+Keep Neon URL query options, including `sslmode=require`, intact. Copy the URL
+itself without a `psql` command or surrounding quote marks. Use a **database API
+key** from Qdrant's cluster console, not a Cloud management API key. The app
+creates its vector collections, so the key needs the corresponding write access.
+
+The Blueprint supplies Redis and generates `APP_SECRET_KEY`. Leave `APP_URL`
+unset so startup uses Render's assigned HTTPS address. Copy only the listed local
+values; importing the entire local `.env` would overwrite cloud URLs with local
+addresses. Fill the secret fields before clicking **Deploy Blueprint**.
 
 The public Portfolio URL is the same origin plus `/portfolio/mcp`. Sign in, mint
 a one-hour Portfolio read token through `/api/portfolio/access-token`, and provide

@@ -8,11 +8,15 @@ GigBid combines a React workspace, durable LangGraph workflows and three MCP
 servers. Requirement-to-evidence matching, risk assessment, grounded drafting,
 pricing and client replies stay visible and reviewable.
 
+Source: [MominMunir/agentic-a2-0854](https://github.com/MominMunir/agentic-a2-0854).
+
 ![Inbox](docs/images/inbox-desktop.png)
 
 ## Run locally
 
 ```sh
+git clone https://github.com/MominMunir/agentic-a2-0854.git
+cd agentic-a2-0854
 uv sync --frozen --extra dev --extra retrieval
 uv run python scripts/bootstrap.py
 uv run python scripts/generate_data.py
@@ -106,8 +110,8 @@ degraded mode and mobile layout. Model/API studies can be subject to quota limit
 - [Free Render deployment](docs/FREE_DEPLOYMENT.md) and [GitHub steps](docs/RUNBOOK.md#public-github-repository-steps-required-by-the-pdf)
 - [Three saved workflow traces](docs/traces/README.md) and [resume bullets](docs/Resume_Bullets.md)
 
-Public app, repository, article, video and Portfolio URLs require the owner's
-publication authorization and are not represented as already live. Reviewer
+The source repository is public. App/Portfolio deployment and article/video
+publication remain pending; see the free deployment guide. Reviewer
 credentials are generated from environment variables, excluded from the release,
 and shared privately. The assignment's published deadline has passed; no commit
 dates are altered or represented as on time.
