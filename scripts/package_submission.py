@@ -18,7 +18,7 @@ DOCUMENTS = {
     "RESULTS.md", "IMPLEMENTATION_PLAN.md", "openapi.json",
 }
 ROOT_FILES = {"README.md", "Makefile", "pyproject.toml", "uv.lock", ".env.example",
-              ".gitignore", ".gitattributes", ".dockerignore", "docker-compose.yml",
+              ".gitignore", ".gitattributes", ".dockerignore", "compose.yaml",
               "render.yaml", "LICENSE", "conftest.py"}
 DIRECTORIES = {".github", "agent", "apps", "gigbid_core", "mcp_servers", "rag",
                "worker", "simulator", "gigsim", "data", "evals", "evaluation",
@@ -107,6 +107,8 @@ Evaluation scope and unfinished external requirements: gigbid/docs/FINAL_STATUS.
         for row in manifest["files"]:
             assert hashlib.sha256(archive.read(row["path"])).hexdigest() == row["sha256"]
         assert "gigbid/.env.example" in archive.namelist()
+        assert all("gigbid/" + name in archive.namelist() for name in ROOT_FILES)
+        assert "gigbid/infra/docker-compose.yml" in archive.namelist()
         assert not any("/.private/" in name or name.endswith(".docx") or name.endswith(".tsbuildinfo") for name in archive.namelist())
         assert not any(name.startswith("gigbid/evaluation/annotations/") and name.endswith(".csv") for name in archive.namelist())
     digest = hashlib.sha256(output.read_bytes()).hexdigest()
