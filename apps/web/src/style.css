@@ -4,7 +4,7 @@
   color: #253b38;
   background: #f7f8f5;
   font-synthesis: none;
-  font-size: 14px;
+  font-size: 16px;
   --green: #195d4b;
   --line: #e4e9e3;
   --muted: #76847e;
@@ -83,17 +83,17 @@ h3 {
   margin-top: 0;
 }
 h1 {
-  font-size: 32px;
+  font-size: 34px;
   line-height: 1.25;
   font-weight: 750;
   margin-bottom: 11px;
 }
 h2 {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 750;
 }
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 p {
@@ -102,14 +102,14 @@ p {
 }
 small {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 label {
   display: flex;
   flex-direction: column;
   gap: 8px;
   color: #53665a;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 550;
   margin: 18px 0;
 }
@@ -157,7 +157,7 @@ select:focus {
   display: flex;
   align-items: center;
   font-family: Manrope, sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 800;
   letter-spacing: -2px;
   color: #203e31;
@@ -180,7 +180,7 @@ select:focus {
   color: #86ac61;
 }
 .workspace-tag {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.6px;
   color: #99a59a;
@@ -199,7 +199,7 @@ select:focus {
   font-weight: 550;
   color: #6c7d70;
   border-radius: 8px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .sidebar nav a.active {
   color: #195d4b;
@@ -220,11 +220,11 @@ select:focus {
 }
 .sidebar-note strong {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
 }
 .sidebar-note p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
   margin-bottom: 0;
 }
@@ -240,11 +240,11 @@ select:focus {
 }
 .user-card strong {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
 }
 .user-card small {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -277,7 +277,7 @@ select:focus {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
-  font-size: 11px;
+  font-size: 13px;
   color: #8a968c;
 }
 .topbar > span {
@@ -290,7 +290,7 @@ select:focus {
   font-weight: 500;
 }
 .top-status {
-  font-size: 10px;
+  font-size: 12px;
 }
 .top-status > span {
   width: 6px;
@@ -305,7 +305,7 @@ main:not(.auth):not(.initial) {
 }
 .eyebrow {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.7px;
   color: #7e947d;
@@ -320,10 +320,10 @@ main:not(.auth):not(.initial) {
 }
 .page-title p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 .page-title button {
-  font-size: 11px;
+  font-size: 13px;
   white-space: nowrap;
   padding: 13px 17px;
 }
@@ -341,7 +341,7 @@ main:not(.auth):not(.initial) {
 }
 .stats > div > span {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   color: #829080;
   margin-bottom: 12px;
 }
@@ -350,14 +350,14 @@ main:not(.auth):not(.initial) {
   align-items: baseline;
   gap: 12px;
   font-family: Manrope, sans-serif;
-  font-size: 29px;
+  font-size: 31px;
   color: #2e4a35;
   font-weight: 750;
 }
 .stats strong small {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0;
 }
 .opportunity-banner {
@@ -382,12 +382,12 @@ main:not(.auth):not(.initial) {
   flex-shrink: 0;
 }
 .opportunity-banner strong {
-  font-size: 13px;
+  font-size: 15px;
   color: #3d5c32;
 }
 .opportunity-banner p {
   margin: 5px 0 0;
-  font-size: 11px;
+  font-size: 13px;
   color: #829374;
 }
 .pill {
@@ -395,7 +395,7 @@ main:not(.auth):not(.initial) {
   border: 1px solid #cdddbf;
   border-radius: 30px;
   padding: 6px 9px;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.8px;
   color: #76955d;
@@ -415,7 +415,7 @@ main:not(.auth):not(.initial) {
   gap: 18px;
 }
 .tabs button {
-  font-size: 11px;
+  font-size: 13px;
   color: #85917f;
   background: none;
   border: none;
@@ -442,7 +442,7 @@ main:not(.auth):not(.initial) {
 }
 .search input {
   border: 0;
-  font-size: 10px;
+  font-size: 12px;
   box-shadow: none;
   padding: 10px 0;
 }
@@ -453,13 +453,13 @@ main:not(.auth):not(.initial) {
   margin: 0 0 20px;
 }
 .section-heading h2 {
-  font-size: 15px;
+  font-size: 17px;
   margin: 0;
   letter-spacing: -0.02em;
 }
 .section-heading h2 span {
   font-family: "DM Sans", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
   background: #eaf0e4;
   border-radius: 6px;
@@ -468,7 +468,7 @@ main:not(.auth):not(.initial) {
   color: #78916e;
 }
 .section-heading small {
-  font-size: 9px;
+  font-size: 11px;
 }
 .job-grid {
   display: grid;
@@ -494,7 +494,7 @@ main:not(.auth):not(.initial) {
   margin-bottom: 16px;
 }
 .category {
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 1.3px;
   font-weight: 700;
   color: #87957c;
@@ -506,7 +506,7 @@ main:not(.auth):not(.initial) {
   border: 1px solid #e6eae0;
   border-radius: 6px;
   color: #849378;
-  font-size: 9px;
+  font-size: 11px;
   line-height: 1.1;
   white-space: nowrap;
 }
@@ -521,7 +521,7 @@ main:not(.auth):not(.initial) {
   color: #987439;
 }
 .job-card h3 {
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.5;
   margin: 0 0 10px;
   font-weight: 750;
@@ -530,7 +530,7 @@ main:not(.auth):not(.initial) {
   color: #294333;
 }
 .job-excerpt {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.8;
   margin: 0 0 16px;
   display: -webkit-box;
@@ -551,7 +551,7 @@ main:not(.auth):not(.initial) {
   background: #f8faf5;
   border-radius: 5px;
   padding: 5px 8px;
-  font-size: 9px;
+  font-size: 11px;
   color: #75816c;
 }
 .job-numbers {
@@ -563,12 +563,12 @@ main:not(.auth):not(.initial) {
 }
 .job-numbers small {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   margin-bottom: 7px;
   color: #97a08f;
 }
 .job-numbers strong {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 650;
 }
 .job-numbers .fit {
@@ -584,7 +584,7 @@ main:not(.auth):not(.initial) {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 650;
   color: #4d7147;
 }
@@ -594,7 +594,7 @@ footer {
   padding: 22px 40px;
   border-top: 1px solid var(--line);
   color: #9ba595;
-  font-size: 10px;
+  font-size: 12px;
 }
 .detail-grid {
   display: grid;
@@ -610,7 +610,7 @@ footer {
   min-width: 0;
 }
 .panel p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .panel h2 {
   margin-bottom: 20px;
@@ -622,7 +622,7 @@ footer {
   gap: 15px;
   border-top: 1px solid #edf0e9;
   padding: 14px 0;
-  font-size: 12px;
+  font-size: 14px;
   overflow-wrap: anywhere;
 }
 .matrix-row span {
@@ -633,7 +633,7 @@ footer {
 }
 .back {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 22px;
 }
 .error {
@@ -646,7 +646,7 @@ footer {
   border: 1px solid #f0d4bb;
   border-radius: 8px;
   color: #8d5230;
-  font-size: 12px;
+  font-size: 14px;
 }
 .error button {
   margin-left: auto;
@@ -672,7 +672,7 @@ footer {
 }
 .empty p {
   max-width: 420px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .actions {
   display: flex;
@@ -719,13 +719,13 @@ footer {
   z-index: 1;
 }
 .timeline strong {
-  font-size: 12px;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
 }
 .timeline small {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 5px;
 }
 .approval {
@@ -736,10 +736,10 @@ footer {
   margin-bottom: 22px;
 }
 .approval h3 {
-  font-size: 17px;
+  font-size: 19px;
 }
 .approval p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .preview {
   display: flex;
@@ -749,7 +749,7 @@ footer {
   border-block: 1px solid #dbe7d2;
 }
 .preview span {
-  font-size: 11px;
+  font-size: 13px;
   color: #7d8e73;
 }
 .claim {
@@ -762,10 +762,10 @@ footer {
 }
 .claim p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 .claim small {
-  font-size: 10px;
+  font-size: 12px;
   color: #7f9c68;
 }
 .mono {
@@ -785,12 +785,12 @@ footer {
 }
 .list-row strong {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
 }
 .list-row small {
   display: block;
   margin-top: 7px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .kanban {
   display: grid;
@@ -807,7 +807,7 @@ footer {
 }
 .kanban h3 {
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: space-between;
   color: #6b8064;
@@ -826,10 +826,10 @@ footer {
   margin-bottom: 12px;
 }
 .pipeline-card strong {
-  font-size: 12px;
+  font-size: 14px;
 }
 .pipeline-card > span:last-child {
-  font-size: 12px;
+  font-size: 14px;
 }
 .message {
   padding: 17px;
@@ -841,7 +841,7 @@ footer {
   margin-right: 20px;
 }
 .message strong {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: capitalize;
 }
 .chart-row {
@@ -849,7 +849,7 @@ footer {
   align-items: center;
   gap: 16px;
   margin: 28px 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 .chart-row > div {
   flex: 1;
@@ -865,7 +865,7 @@ footer {
   border-radius: 10px;
 }
 .muted {
-  font-size: 11px !important;
+  font-size: 13px !important;
   color: #93a088;
 }
 .upload {
@@ -876,7 +876,7 @@ footer {
   cursor: pointer;
 }
 .upload input {
-  font-size: 11px;
+  font-size: 13px;
   background: none;
   border: 0;
   padding: 10px 0;
@@ -898,10 +898,10 @@ footer {
 .auth-story .brand {
   position: absolute;
   top: 45px;
-  font-size: 34px;
+  font-size: 36px;
 }
 .auth-story h1 {
-  font-size: 48px;
+  font-size: 50px;
   line-height: 1.25;
   letter-spacing: -2px;
   max-width: 500px;
@@ -911,14 +911,14 @@ footer {
   color: #6d8b50;
 }
 .auth-story > p {
-  font-size: 15px;
+  font-size: 17px;
   max-width: 390px;
 }
 .auth-proof {
   display: flex;
   gap: 17px;
   margin-top: 45px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   color: #708664;
 }
@@ -929,10 +929,10 @@ footer {
   padding: 30px;
 }
 .auth-form h2 {
-  font-size: 29px;
+  font-size: 31px;
 }
 .auth-form p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .auth-form .primary {
   width: 100%;
@@ -942,7 +942,7 @@ footer {
 .text-button {
   background: none;
   border: none;
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 15px;
   padding: 10px 0;
   color: #809575;
@@ -977,7 +977,7 @@ footer {
     display: none;
   }
   .page-title h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .detail-grid {
     grid-template-columns: 1fr;
@@ -986,7 +986,7 @@ footer {
     padding: 18px;
   }
   .auth-story h1 {
-    font-size: 38px;
+    font-size: 40px;
   }
 }
 @media (max-width: 760px) {
@@ -1027,7 +1027,7 @@ footer {
     gap: 17px;
   }
   .page-title h1 {
-    font-size: 29px;
+    font-size: 31px;
   }
   .stats {
     gap: 9px;
@@ -1036,11 +1036,11 @@ footer {
     padding: 16px 12px;
   }
   .stats > div > span {
-    font-size: 9px;
+    font-size: 11px;
     min-height: 25px;
   }
   .stats strong {
-    font-size: 25px;
+    font-size: 27px;
   }
   .job-grid {
     grid-template-columns: 1fr;
@@ -1053,7 +1053,7 @@ footer {
     display: none;
   }
   .opportunity-banner p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .inbox-toolbar {
     flex-wrap: wrap;
@@ -1075,7 +1075,7 @@ footer {
     padding: 110px 30px 45px;
   }
   .auth-story h1 {
-    font-size: 34px;
+    font-size: 36px;
   }
   .auth-story > p,
   .auth-proof {
@@ -1088,11 +1088,11 @@ footer {
     padding: 35px 24px;
   }
   .auth-form h2 {
-    font-size: 25px;
+    font-size: 27px;
   }
   footer {
     padding: 20px;
-    font-size: 9px;
+    font-size: 11px;
   }
   footer span {
     display: none;
