@@ -1,5 +1,8 @@
 # Three-minute demo script
 
+Public app: https://gigbid-wr80.onrender.com. Portfolio MCP:
+https://gigbid-wr80.onrender.com/portfolio/mcp (bearer authentication required).
+
 Record only after the public deployment and reviewer login have been verified.
 Keep credentials, API keys, tokens and private account screens out of the video.
 Use synthetic demonstration data and label it on screen. This script is a

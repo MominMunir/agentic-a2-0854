@@ -1,5 +1,9 @@
 # Runbook and publication instructions
 
+Current public app, MCP endpoint and verification records:
+[deployment status](DEPLOYMENT_STATUS.md). The instructions below also cover
+reproducing the full local stack and creating a replacement deployment.
+
 ## Local development on Windows
 
 From the `gigbid` directory, use Python 3.12 and Node 24:

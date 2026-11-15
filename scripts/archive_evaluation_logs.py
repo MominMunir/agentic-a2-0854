@@ -27,6 +27,10 @@ def main():
         "compact-smoke",
         "compose-final",
         "uv-sync",
+        "pytest-memory-fix",
+        "playwright-memory-fix",
+        "compact-memory-fix",
+        "public-deployment-check",
     ]:
         source = ROOT / "tmp" / (name + ".log")
         if source.exists():

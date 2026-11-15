@@ -89,11 +89,13 @@ relative to a single agent, with additional latency and token cost.
 ## Final implementation evidence
 
 The initial plan above remains as the pre-experiment record. The final local
-build passed 33 backend tests and six browser journeys. Real Groq inference was
+build passed 35 backend tests and six browser journeys. Real Groq inference was
 used for the 40-task/toolset study and 200 architecture attempts; daily quotas
 prevent a fair architecture ranking. Retrieval covers six variants and 180
 queries, with V0 selected only on development. Official MCP Inspector captures,
 an isolated wheel check, a real Postgres restart check, and a 512 MiB compact
-deployment test are saved. The final free-profile peak was 472.56 MiB. Independent
-human calibration, instructor assets/outcomes and public publication remain
-external checkpoints; 30 real drafts and 14 blind pairs are prepared for raters.
+deployment test are saved. After a cloud sign-in memory failure, the compact
+runtime was revised and the regression check peaked at 432.22 MiB. Public app,
+MCP, Neon and Qdrant checks passed; see docs/DEPLOYMENT_STATUS.md. Independent
+human calibration, instructor assets/outcomes and separate blog/video publication
+remain external work; 30 real drafts and 14 blind pairs are prepared for raters.

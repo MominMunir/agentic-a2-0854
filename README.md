@@ -10,6 +10,10 @@ pricing and client replies stay visible and reviewable.
 
 Source: [MominMunir/agentic-a2-0854](https://github.com/MominMunir/agentic-a2-0854).
 
+**Live app:** [https://gigbid-wr80.onrender.com](https://gigbid-wr80.onrender.com) · [Portfolio MCP](https://gigbid-wr80.onrender.com/portfolio/mcp) (authenticated MCP endpoint).
+
+Verified reviewer login, real-model drafting, scoped MCP and durable cloud storage: [deployment checks](evals/results/public_deployment.json).
+
 ![Inbox](docs/images/inbox-desktop.png)
 
 ## Run locally
@@ -108,10 +112,11 @@ degraded mode and mobile layout. Model/API studies can be subject to quota limit
 - [X1 agency extension](docs/EXTENSION.md) and [AI disclosure](docs/AI_USAGE.md)
 - [Requirement ledger](docs/IMPLEMENTATION_PLAN.md)
 - [Free Render deployment](docs/FREE_DEPLOYMENT.md) and [GitHub steps](docs/RUNBOOK.md#public-github-repository-steps-required-by-the-pdf)
+- [Verified public deployment status](docs/DEPLOYMENT_STATUS.md)
 - [Three saved workflow traces](docs/traces/README.md) and [resume bullets](docs/Resume_Bullets.md)
 
-The source repository is public. App/Portfolio deployment and article/video
-publication remain pending; see the free deployment guide. Reviewer
+The source repository is public. See the live deployment status above and the
+free deployment guide. Article/video publication remains pending. Reviewer
 credentials are generated from environment variables, excluded from the release,
 and shared privately. The assignment's published deadline has passed; no commit
 dates are altered or represented as on time.

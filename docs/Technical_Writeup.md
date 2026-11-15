@@ -153,8 +153,11 @@ spending money or contacting a client.
 The next iteration would obtain the instructor corpus, add independent relevance
 and claim labels, calibrate a judge against thirty human assessments and run the
 fixed outcome experiment. The current repository includes annotation and
-calibration tools, but does not fill human fields with model guesses. Public
-deployment and account integration also need their own access checks. Until
-those steps happen, the evidence supports a tested local copilot and bounded
-research findings. That is a useful result, and a stronger foundation for further
-work than an impressive architecture paired with invented success rates.
+calibration tools, but does not fill human fields with model guesses. The
+[public app](https://gigbid-wr80.onrender.com) uses a free Render instance with
+Neon and Qdrant storage; its deployment checks are recorded separately from the
+research benchmark. A cloud memory failure led to sharing the queue worker's
+process with the API in this compact profile, while preserving separate workers
+in the full stack. Independent labels, instructor outcomes and live account
+integration still require their own checks. The evidence supports a tested
+copilot and bounded findings, with remaining work stated explicitly.

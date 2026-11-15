@@ -41,7 +41,8 @@ The revised local test measured 353.2 MiB in use and 432.22 MiB peak, including
 three password sign-ins after embedding weights were loaded. Backend checks
 cover the embedded worker's startup/shutdown and degraded health state. Blueprint
 build filters avoid restarting the app for report, documentation and evaluation
-record updates; application/runtime changes still deploy automatically.
+record updates; application/runtime changes remain eligible for automatic builds.
+For an explicit update, use **Manual Deploy > Deploy latest commit** in Render.
 
 ## Why Render for this project
 
@@ -86,8 +87,8 @@ claim that Vercel lacks Python or background-worker support.
    If using a custom domain, set APP_URL explicitly to its HTTPS origin.
 7. After the owner approves the deployment, verify login, a real open-model draft,
    SSE, source deletion, an approval, idle wake-up and a restart. Record the exact
-   live URL and commit. Account creation/publication/verification are external
-   checkpoints and have not been represented as already completed.
+   live URL and commit. See [deployment status](DEPLOYMENT_STATUS.md) for the
+   completed instance and recorded public checks.
 
 ### Values requested by the Blueprint
 

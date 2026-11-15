@@ -1,0 +1,18 @@
+{
+  "public": false,
+  "image": "gigbid-free-demo:latest",
+  "memory_limit_mib": 512,
+  "inference": "deterministic smoke; actual CPU embeddings, HTTP MCP, Postgres and Redis",
+  "startup_seconds": 21.29699999999866,
+  "repeat_login_after_embeddings": 3,
+  "frontend": true,
+  "authenticated_mcp": true,
+  "cross_server_token_rejected": true,
+  "postgres_redis_interrupt": true,
+  "side_effect": "not executed",
+  "run_id": "4289c720-ce3a-4822-8133-1ded6d494c28",
+  "docker_memory": "353.2MiB / 512MiB",
+  "cgroup_peak_mib": 432.22,
+  "passed": true,
+  "oom_killed": false
+}

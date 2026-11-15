@@ -41,9 +41,10 @@ its environment. Read-only does not mean public data: HTTP always authenticates.
 
 ## Publish and inspect
 
-The source/Docker install path is complete; publishing a remote endpoint or
-package requires the owner's hosting/registry authorization. Do not advertise a
-PyPI package name as already published. Test with:
+The public authenticated endpoint is
+`https://gigbid-wr80.onrender.com/portfolio/mcp`. Sign in to the app and obtain a
+one-hour read token from Settings for your MCP host. Source/Docker/wheel install
+paths are available; a PyPI registry package has not been published. Test locally with:
 
 ```sh
 npx @modelcontextprotocol/inspector uv run gigbid-portfolio

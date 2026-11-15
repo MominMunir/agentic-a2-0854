@@ -16,6 +16,15 @@ from scripts.build_docs import load, table
 
 
 def main():
+    deployment = load("public_deployment")
+    deployment_note = (
+        f"Public deployment verified at {deployment['app_url']}; authenticated Portfolio MCP at "
+        f"{deployment['portfolio_mcp_url']}. Reviewer login, an actual open-model draft awaiting approval, "
+        "scoped HTTP MCP, Neon checkpoint storage and Qdrant access are recorded in "
+        "evals/results/public_deployment.json. This verifies one synthetic workflow, not uptime or hiring outcomes."
+        if deployment.get("passed")
+        else "Public deployment verification remains an external checkpoint."
+    )
     retrieval, tools, decisions, orch, agency = [
         load(n) for n in ["retrieval", "tool_study", "decisions", "orchestration", "agency"]
     ]
@@ -75,9 +84,17 @@ def main():
         for r in orch.get("results", [])
     ]
     nqueries = len(json.loads((ROOT / "evals/datasets/synthetic_dev.json").read_text()))
-    cost_rows = [[r["architecture"], r["drafts"], f"{r['mean_tokens']:.0f}" if r["mean_tokens"] is not None else "n/a",
-                  f"{r['usd_estimate']:.5f}", f"{r['analysis_p95_seconds']:.1f}" if r["analysis_p95_seconds"] is not None else "n/a",
-                  f"{r['proposal_p95_seconds']:.1f}" if r["proposal_p95_seconds"] is not None else "n/a"] for r in orch.get("results", [])]
+    cost_rows = [
+        [
+            r["architecture"],
+            r["drafts"],
+            f"{r['mean_tokens']:.0f}" if r["mean_tokens"] is not None else "n/a",
+            f"{r['usd_estimate']:.5f}",
+            f"{r['analysis_p95_seconds']:.1f}" if r["analysis_p95_seconds"] is not None else "n/a",
+            f"{r['proposal_p95_seconds']:.1f}" if r["proposal_p95_seconds"] is not None else "n/a",
+        ]
+        for r in orch.get("results", [])
+    ]
     sections = [
         (
             "1. Problem, constraints and evidence boundaries",
@@ -96,7 +113,8 @@ def main():
                 ),
                 (
                     "p",
-                    "The implementation began on November 15, 2026, after the PDF deadline. No on-time commit, public deployment, human panel, hidden-test result or recorded demo is fabricated. Publication and account verification require the owner. This report is an engineering review of measured local behavior with explicit external limitations.",
+                    "The implementation began on November 15, 2026, after the PDF deadline. No on-time commit, human panel, hidden-test result or recorded demo is fabricated. This report distinguishes measured local behavior and subsequent deployment checks from unavailable external evaluations. "
+                    + deployment_note,
                 ),
                 (
                     "p",
@@ -196,8 +214,24 @@ def main():
                     "p",
                     "Groq daily quotas caused 49/50 supervisor failures and most graph failures. Sequential groups had unequal token availability, so this operational study cannot fairly rank architectures or confirm H-C. The table p95 includes all attempts, including fast rejections; completed/proposal p95 are separate JSON fields. n/a means no drafts, not zero unsupported claims. Models are open-weight; CPU retrieval remains local and open.",
                 ),
-                ("table", (["Architecture", "Drafts", "Mean tokens / done", "USD total*", "Analysis p95 s", "Draft p95 s"], cost_rows)),
-                ("p", "*USD totals cover returned usage on completed jobs only; failed-call usage is unknown. Baseline prices were derived from preserved token counts and recorded model IDs. Analysis time is measured through decision, and draft latency through the approval/terminal state. Network/retry latency is included; these are client observations, not server decoding tokens/second. Budget enforcement blocks writes after returned usage exceeds limits; a request may cross a budget before its usage is known."),
+                (
+                    "table",
+                    (
+                        [
+                            "Architecture",
+                            "Drafts",
+                            "Mean tokens / done",
+                            "USD total*",
+                            "Analysis p95 s",
+                            "Draft p95 s",
+                        ],
+                        cost_rows,
+                    ),
+                ),
+                (
+                    "p",
+                    "*USD totals cover returned usage on completed jobs only; failed-call usage is unknown. Baseline prices were derived from preserved token counts and recorded model IDs. Analysis time is measured through decision, and draft latency through the approval/terminal state. Network/retry latency is included; these are client observations, not server decoding tokens/second. Budget enforcement blocks writes after returned usage exceeds limits; a request may cross a budget before its usage is known.",
+                ),
                 (
                     "p",
                     "No instructor GigSim service means no simulated reply/hire comparison can be completed, and no hidden test has been run. The local simulator deliberately generates a sample reply for UI exercises; counting it as a research reply rate would be invalid. The production decision is justified by tested control boundaries and available evidence, with generalization and outcome claims left open.",
@@ -221,7 +255,7 @@ def main():
                 ),
                 (
                     "p",
-                    "CI includes tests, schema snapshots, secret/instructor-directory gates and a 30-job deterministic smoke eval. Playwright verifies six browser journeys. Compose runs the full stack, including Postgres, Redis, Qdrant and private Phoenix. A strictly free Render profile uses external Neon/Qdrant storage and a supervised worker, with small embedding batches. Free instances sleep; they cannot guarantee always-live grading access. docs/FREE_DEPLOYMENT.md records limits. Public hosting and account OAuth remain owner checkpoints.",
+                    "CI includes tests, schema snapshots, secret/instructor-directory gates and a 30-job deterministic smoke eval. Playwright verifies six browser journeys. Compose runs the full stack with independent workers. The free Render profile shares the API process with a Redis/Arq background worker, using external Neon/Qdrant storage. An initial cloud OOM after warmed retrieval plus sign-in prompted this change; a 512 MiB regression check now repeats sign-in three times and measured 432.22 MiB peak. Hashing parameters and model weights were retained. Free sleep prevents an always-live guarantee; docs/FREE_DEPLOYMENT.md records limits.",
                 ),
                 (
                     "p",
@@ -252,7 +286,8 @@ def main():
             [
                 (
                     "p",
-                    "The available evidence supports a functioning local freelancer workspace with evidence retrieval, typed parallel analysis, bounded critique, durable human approval, exactly-once local effects and measurable agency routing. It does not establish real freelance earnings, causal reply improvements, unseen hidden-test quality or verified live Upwork behavior.",
+                    "The available evidence supports a functioning freelancer workspace with evidence retrieval, typed parallel analysis, bounded critique, durable human approval, exactly-once simulator effects and measurable agency routing. It does not establish real freelance earnings, causal reply improvements, unseen hidden-test quality or verified live Upwork behavior. "
+                    + deployment_note,
                 ),
                 (
                     "p",
@@ -260,7 +295,7 @@ def main():
                 ),
                 (
                     "p",
-                    "Remaining external gates: instructor GigSim/personas/dev labels/policy update; independent human calibration/panel; owner-approved public hosting/DNS; Upwork/GitHub account verification; published article/video/Portfolio links; and the instructor hidden run. Reviewer credentials are generated from environment and excluded from source, archives and report. They are intended only for a private Classroom comment.",
+                    "Remaining external gates: instructor GigSim/personas/dev labels/policy update; independent human calibration/panel; Upwork/GitHub account integration verification; published article/video; and the instructor hidden run. Public app/MCP status is documented separately above. Reviewer credentials are generated from environment and excluded from source, archives and report. They are intended only for a private Classroom comment.",
                 ),
                 (
                     "p",
@@ -380,7 +415,7 @@ def main():
     def footer(canvas, document):
         canvas.setFont("Helvetica", 8)
         canvas.setFillColor(colors.HexColor("#7f8d80"))
-        canvas.drawString(42, 23, "GigBid | measured local evidence; external gates disclosed")
+        canvas.drawString(42, 23, "GigBid | measured evidence; external gates disclosed")
         canvas.drawRightString(A4[0] - 42, 23, str(document.page))
 
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
