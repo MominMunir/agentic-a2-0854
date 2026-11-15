@@ -48,7 +48,7 @@ midnight PKT at the end of November 15, 2026. Commit timestamps remain unaltered
 | R3, C1-C4 | bid/conversation StateGraphs; analyst/risk/fit Send branches; Pydantic handoffs | graph diagrams, routing and bounded-loop tests |
 | R4, C5-C7 | interrupt approval, Postgres checkpoints, idempotency ledger, retries | restart/resume, reject/edit and double-submit tests |
 | R5, B3 | atomic claims with evidence references, verifier and rechecked edits | unsupported rate before/after; adversarial claims |
-| R6, B1-B5 | V0/V1/V2/V3/V8, metadata loaders, calibrated evaluation | Recall@5, MRR, nDCG@10; per persona/job type; ablation |
+| R6, B1-B5 | V0/V1/V2/V3/V8, metadata loaders, reproducible evaluation | Recall@5, MRR, nDCG@10; per persona/job type; ablation |
 | R7, C2 | LangGraph style/outcome store and explicit promotion | promotion/delete/isolation tests; edit diffs |
 | R8, E3/E5 | trace propagation, PII redaction, token/step budgets, Phoenix | p50/p95, per-node actual usage and cost records |
 | R9, E1/E4 | untrusted text boundaries; policy config; Redis scheduler; rate limits | injection ASR, outage/recovery, no auto-send tests |

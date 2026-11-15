@@ -3,8 +3,8 @@
 - Web app: https://gigbid-wr80.onrender.com
 - Portfolio MCP: https://gigbid-wr80.onrender.com/portfolio/mcp
 - Source: https://github.com/MominMunir/agentic-a2-0854
-- Current deployed revision: `6892af52d0b0da3eda39dff879da6301c3722275`
-  (punctuation cleanup verified on the public app).
+- Current deployed revision: `6da2c9a8b80133d768a9e72be2575a0e009365c9`
+  (public technical article verified after deployment).
 - Full backend/MCP/storage verification revision:
   `09dbf7627a12fe4400d899b4f558eee96078e155`.
 - Plans checked in the dashboards: Render web **Free**, Render Key Value **Free**,
@@ -58,5 +58,10 @@ Reviewer credentials and cloud connection strings are stored only in ignored
 private files and provider secret settings. Share reviewer access privately in
 Classroom. The public technical article is at
 https://gigbid-wr80.onrender.com/blog/gigbid. The demo video is submitted separately.
+The article was verified without authentication on November 15, 2026, with the
+correct author and 1,486 rendered words. The final source passed 39 backend tests
+and six browser journeys; GitHub CI also passed. The final named PDF has ten
+pages, including both compiled workflow diagrams. See
+`evals/results/article_publication.json` for the publication and revision record.
 Instructor assets and independent human ratings remain unavailable; see
 `docs/FINAL_STATUS.md` for evaluation scope and outstanding requirements.

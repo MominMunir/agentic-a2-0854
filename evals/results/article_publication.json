@@ -1,0 +1,20 @@
+{
+  "url": "https://gigbid-wr80.onrender.com/blog/gigbid",
+  "checked_at": "2026-11-15T17:47:22.187486+00:00",
+  "http_status": 200,
+  "unauthenticated_access": true,
+  "author": "Muhammad Momin Munir",
+  "source_word_count": 1481,
+  "rendered_article_word_count": 1486,
+  "source_sha256": "08f126f922e2fecb3bae23a1f1ff59a0d33e0952ea24fff5a8d671036d79ca23",
+  "runtime_commit": "6da2c9a8b80133d768a9e72be2575a0e009365c9",
+  "render_deployment_id": "dep-dbsuuaei0phs73e7kt6g",
+  "backend_tests_passed": 39,
+  "browser_journeys_passed": 6,
+  "ci_url": "https://github.com/MominMunir/agentic-a2-0854/actions/runs/43742616991",
+  "ci_conclusion": "success",
+  "passed": true,
+  "reviewer_run_status": "awaiting_approval",
+  "health": "ok",
+  "effects": "No proposal or message sent by publication verification"
+}
