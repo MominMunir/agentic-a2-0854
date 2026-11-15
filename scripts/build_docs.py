@@ -223,8 +223,9 @@ degraded mode and mobile layout. Model/API studies can be subject to quota limit
 The source repository is public. See the live deployment status above and the
 free deployment guide. Article/video publication remains pending. Reviewer
 credentials are generated from environment variables, excluded from the release,
-and shared privately. The assignment's published deadline has passed; no commit
-dates are altered or represented as on time.
+and shared privately. The owner confirmed an extension to midnight PKT at the end
+of November 15, 2026; the original PDF lists November 12. Commit dates remain
+unaltered. See [the submission and viva guide](docs/SUBMISSION_GUIDE.md).
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print("README, results tables, tool inventory and code-derived graph diagrams regenerated.")

@@ -88,8 +88,8 @@ stack, because that deletes persistent volumes.
 
 The source has been published to
 [MominMunir/agentic-a2-0854](https://github.com/MominMunir/agentic-a2-0854).
-Use branch `main` when connecting Render. Publication does not change the
-deadline limitation below. The following commands describe initial setup for
+Use branch `main` when connecting Render. The deadline update is recorded below.
+The following commands describe initial setup for
 a new copy/repository; the supplied repository is already initialized and pushed.
 
 The public repository must contain this project's required directory structure.
@@ -113,10 +113,10 @@ If `gh` is unavailable, create an empty public repository on GitHub, then add it
 remote URL and push `main`. Authentication and publication are user checkpoints.
 Never enter a token into a tracked file, README, screenshot or remote URL.
 
-The PDF says the final commit must precede November 12, 2026, 11:59 PM PKT, and
-late commits are ignored. This work began after that date. Do not alter commit
-timestamps or imply an on-time submission; obtain any deadline exception from
-the instructor. The final submission needs the public web URL, repository,
+The PDF originally says November 12, 2026, 11:59 PM PKT. The owner confirmed an
+extension to midnight PKT at the end of November 15, 2026. Finish the source push
+and Classroom submission before that extended cutoff; keep commit timestamps
+unaltered. The final submission needs the public web URL, repository,
 report PDF, recorded demo video, installable/published Portfolio MCP and published
 article link. Share reviewer credentials only in a private Classroom comment.
 

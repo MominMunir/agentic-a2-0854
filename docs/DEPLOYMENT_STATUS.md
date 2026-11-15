@@ -3,7 +3,10 @@
 - Web app: https://gigbid-wr80.onrender.com
 - Portfolio MCP: https://gigbid-wr80.onrender.com/portfolio/mcp
 - Source: https://github.com/MominMunir/agentic-a2-0854
-- Verified runtime revision: `09dbf7627a12fe4400d899b4f558eee96078e155`.
+- Current deployed revision: `bf76c656639db7a6d28a031126f40e6ef6636260`
+  (font update verified in the live UI).
+- Full backend/MCP/storage verification revision:
+  `09dbf7627a12fe4400d899b4f558eee96078e155`.
 - Plans checked in the dashboards: Render web **Free**, Render Key Value **Free**,
   Neon **Free**, and Qdrant **Free**. No paid plan or add-on was selected.
 
@@ -13,6 +16,13 @@ missing/wrong-scope tokens, three sign-ins after retrieval, the Neon run and its
 11 checkpoints, and the authenticated Qdrant collection. The pending draft is
 synthetic and was not submitted. Its initial creation used Groq 20b/120b models;
 the saved approval survived runtime restarts and the memory-fix deployment.
+
+The later font update raises all explicit UI text sizes by two pixels. The
+frontend build and six browser journeys passed, and the live Proposal studio
+was checked after Render reported the new revision Live. The base is now 16 px
+and its main heading 34 px. The same saved draft remains awaiting approval.
+See `evals/results/ui_font_update.json`; this UI check is separate from the
+earlier full backend verification and does not claim a new model experiment.
 
 The original two-process compact profile exceeded 512 MiB when sign-in allocated
 Argon2 memory after embeddings warmed. Sharing the background queue worker with
@@ -30,3 +40,7 @@ private files and provider secret settings. Share reviewer access privately in
 Classroom. The article file and recording script are ready; separate blog
 publication, demo recording, instructor assets and independent human labels
 remain external work.
+
+The owner confirmed the submission deadline was extended to midnight PKT at the
+end of November 15, 2026. See `docs/SUBMISSION_GUIDE.md` for the complete audit,
+course-concept explanation and submission/viva checklist.

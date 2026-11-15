@@ -113,7 +113,7 @@ def main():
                 ),
                 (
                     "p",
-                    "The implementation began on November 15, 2026, after the PDF deadline. No on-time commit, human panel, hidden-test result or recorded demo is fabricated. This report distinguishes measured local behavior and subsequent deployment checks from unavailable external evaluations. "
+                    "The implementation began on November 15, 2026. The owner confirmed that the original November 12 PDF deadline was extended to midnight PKT at the end of November 15. Commit timestamps remain unaltered. No human panel, hidden-test result or recorded demo is fabricated. This report distinguishes measured local behavior and subsequent deployment checks from unavailable external evaluations. "
                     + deployment_note,
                 ),
                 (

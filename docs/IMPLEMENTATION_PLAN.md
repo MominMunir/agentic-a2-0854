@@ -4,7 +4,9 @@ Prepared 2026-11-15 after reading all 14 pages of the assignment. The original
 starter kit remains unchanged and is reference material only. No instructor
 GigSim service, full persona corpus, dev labels, hidden set or November 2 policy
 update was supplied. Local substitutes must be labeled and never reported as
-instructor or hidden-test results. The published deadline has already passed.
+instructor or hidden-test results. At planning time only the original November 12
+deadline was known. Update: the owner subsequently confirmed an extension to
+midnight PKT at the end of November 15, 2026. Commit timestamps remain unaltered.
 
 ## Architecture and implementation sequence
 

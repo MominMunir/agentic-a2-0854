@@ -1,0 +1,23 @@
+{
+  "app_url": "https://gigbid-wr80.onrender.com",
+  "runtime_commit": "bf76c656639db7a6d28a031126f40e6ef6636260",
+  "render_deployment_id": "dep-dbst2gs9v7es73bip6rg",
+  "checked_date": "2026-11-15",
+  "change": "All 75 explicit pixel font-size declarations increased by 2 px",
+  "frontend_build": "passed",
+  "playwright_journeys_passed": 6,
+  "mobile_viewport_width_px": 390,
+  "mobile_horizontal_overflow": false,
+  "render_deployment_status": "Deploy succeeded | Live",
+  "live_computed_root_font_size_px": 16,
+  "live_computed_h1_font_size_px": 34,
+  "existing_draft_status": "awaiting_approval",
+  "side_effect": "No proposal or message submitted",
+  "screenshots": [
+    "docs/images/inbox-desktop.png",
+    "docs/images/inbox-mobile.png",
+    "docs/images/proposal-studio.png"
+  ],
+  "limits": "Screenshots and E2E results are local; the live Proposal studio was separately inspected. Full backend/storage checks remain in public_deployment.json at their original revision.",
+  "passed": true
+}
