@@ -186,11 +186,12 @@ conversation workflow and again waits for approval before sending.
    The blind pair packet has 14 pairs; obtain genuine independent ratings and
    keep the randomized architecture key hidden from raters. Never replace human
    labels with generated values or claim these studies are complete.
-4. **Complete trace and diagram presentation.** Static saved JSON traces are
-   public through GitHub, but three public full tracing views requested by the
-   PDF are not established. Phoenix is configured for local/private use. Check
-   the instructor accepts sanitized static trace links, or supply approved
-   public trace views. Both graphs have code-generated Mermaid source; render
+4. **Complete trace and diagram presentation.** The PDF requests three public
+   trace links; sanitized saved JSON traces are public through GitHub. An
+   interactive public trace viewer has not been established; Phoenix is
+   configured for local/private use. Check the static artifacts provide the
+   detail the instructor expects, or supply approved public trace views. Both
+   graphs have code-generated Mermaid source; render
    them visibly for the report/portfolio, rather than only linking `.mmd` files.
 5. **Final review, push and submit.** Add the real publication/video links,
    regenerate the report/clean ZIP after any new results, verify the final commit
@@ -270,7 +271,7 @@ Submit together through Google Classroom, following its attachment/link fields:
 | Reviewer login | Read local `.private/hosted-reviewer.txt`; share only in a private Classroom comment |
 | Source ZIP, if requested | `dist/GigBid_Source.zip`; source and manifests, no runtime secrets/caches |
 | Tests/evaluations | `evaluation/`, `evals/results/`, GitHub Actions verification artifact |
-| Trace links | Four sanitized static artifacts in `docs/traces/`; public tracing views still to resolve |
+| Trace links | Four sanitized static artifacts in `docs/traces/`; check their presentation meets grading expectations |
 | Extension, AI disclosure, resume bullets | `docs/EXTENSION.md`, `docs/AI_USAGE.md`, `docs/Resume_Bullets.md` |
 
 The MCP URL speaks the MCP protocol; it is not a normal webpage. Sign in and mint
