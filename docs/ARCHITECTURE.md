@@ -58,6 +58,9 @@ ambiguous live failures require reconciliation.
 
 Graph source diagrams are exported to `docs/graphs/` by `scripts/build_docs.py`.
 
+![Compiled bid workflow](graphs/bid.svg)
+![Compiled conversation workflow](graphs/conversation.svg)
+
 ## Decision records
 
 - CPU BGE embeddings and FlashRank cross-encoder keep retrieval open and runnable

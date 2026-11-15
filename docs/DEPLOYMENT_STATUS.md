@@ -56,10 +56,7 @@ Sign in to the app's Settings to mint a one-hour Portfolio read token.
 
 Reviewer credentials and cloud connection strings are stored only in ignored
 private files and provider secret settings. Share reviewer access privately in
-Classroom. The article file and recording script are ready; separate blog
-publication, demo recording, instructor assets and independent human labels
-remain external work.
-
-The owner confirmed the submission deadline was extended to midnight PKT at the
-end of November 15, 2026. See `docs/SUBMISSION_GUIDE.md` for the complete audit,
-course-concept explanation and submission/viva checklist.
+Classroom. The public technical article is at
+https://gigbid-wr80.onrender.com/blog/gigbid. The demo video is submitted separately.
+Instructor assets and independent human ratings remain unavailable; see
+`docs/FINAL_STATUS.md` for evaluation scope and outstanding requirements.

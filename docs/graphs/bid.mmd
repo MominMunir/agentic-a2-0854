@@ -4,7 +4,7 @@ config:
     curve: linear
 ---
 graph TD;
-	__start__(<p>__start__</p>)
+	__start__([<p>__start__</p>]):::first
 	corrective_retrieval(corrective_retrieval)
 	join_analysis(join_analysis)
 	analyst(analyst)
@@ -19,14 +19,30 @@ graph TD;
 	dry_run(dry_run)
 	human_review(human_review)
 	execute(execute)
-	__end__(<p>__end__</p>)
+	__end__([<p>__end__</p>]):::last
 	__start__ -.-> analyst;
 	__start__ -.-> fit_matcher;
 	__start__ -.-> risk_assessor;
 	analyst --> join_analysis;
+	compliance_guard -.-> __end__;
+	compliance_guard -.-> dry_run;
+	corrective_retrieval --> decide;
+	critic -.-> compliance_guard;
+	critic -.-> writer;
+	decide -.-> __end__;
+	decide -.-> pricing;
+	dry_run --> human_review;
 	fit_matcher --> join_analysis;
+	human_review -.-> __end__;
+	human_review -.-> execute;
+	join_analysis -.-> corrective_retrieval;
+	join_analysis -.-> decide;
+	pricing -.-> __end__;
+	pricing -.-> writer;
 	risk_assessor --> join_analysis;
-	join_analysis --> __end__;
+	verifier --> critic;
+	writer --> verifier;
+	execute --> __end__;
 	classDef default fill:#f2f0ff,line-height:1.2
 	classDef first fill-opacity:0
 	classDef last fill:#bfb6fc

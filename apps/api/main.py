@@ -706,6 +706,14 @@ async def replay_run(run_id: str, body: ReplayRequest, user=Depends(current_user
     return {"id": rid, "status": "queued", "replay_of": run_id, "approval_required": True}
 
 
+@app.get("/blog/gigbid", include_in_schema=False)
+def technical_article():
+    from fastapi.responses import FileResponse
+
+    folder = "dist" if settings().serve_frontend else "public"
+    return FileResponse(ROOT / "apps/web" / folder / "writeup.html", media_type="text/html")
+
+
 if settings().serve_frontend:
     from fastapi.responses import FileResponse
     from fastapi.staticfiles import StaticFiles

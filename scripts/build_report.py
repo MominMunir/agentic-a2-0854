@@ -33,12 +33,11 @@ def main():
     raw = ROOT / "evaluation/raw/orchestration.jsonl"
     rows = [json.loads(line) for line in raw.read_text(encoding="utf-8").splitlines()] if raw.exists() else []
     failures = []
-    seen = set()
+    buckets = {kind: [] for kind in ["unsupported draft claim", "wrong bid/skip", "tool/provider error"]}
     for row in rows:
         mismatch = (row.get("decision") == "bid") != (row.get("gold_action") == "bid")
-        if row["id"] in seen or not (row.get("error") or mismatch or row.get("unsupported_before", 0)):
+        if not (row.get("error") or mismatch or row.get("unsupported_before", 0)):
             continue
-        seen.add(row["id"])
         kind = (
             "tool/provider error"
             if row.get("error")
@@ -46,8 +45,27 @@ def main():
             if mismatch
             else "unsupported draft claim"
         )
-        failures.append([row["id"], row["architecture"], kind, "Retained; no unmeasured fix claimed"])
-        if len(failures) == 10:
+        buckets[kind].append(row)
+    seen = set()
+    while len(failures) < 10 and any(buckets.values()):
+        for kind, items in buckets.items():
+            while items and items[0]["id"] in seen:
+                items.pop(0)
+            if not items:
+                continue
+            row = items.pop(0)
+            seen.add(row["id"])
+            fix = (
+                "Verifier removed flagged claims; usefulness unrated."
+                if kind == "unsupported draft claim" and row.get("unsupported_after") == 0
+                else "Decision repair not evaluated."
+                if kind == "wrong bid/skip"
+                else "Provider failure retained; rerun incomplete."
+            )
+            failures.append([row["id"], row["architecture"], kind, fix])
+            if len(failures) == 10:
+                break
+        if not any(buckets.values()):
             break
     rr = [r for r in retrieval.get("results", []) if r["persona"] == "all" and r["split"] == "holdout"]
     rag_rows = [
@@ -109,12 +127,11 @@ def main():
                 ),
                 (
                     "p",
-                    "The workspace supplied a reference scaffold and assignment PDF, but no instructor GigSim service/package, full personas, dev labels, hidden set or November 2 policy update. The user confirmed these were not available. This implementation therefore separates historical Kaggle jobs from original synthetic portfolios and a local rule-based simulator. No local reply is labeled as an instructor or real-client outcome.",
+                    "The instructor GigSim package, full persona corpus, independent development labels and November 2 policy update were not supplied. I used historical Kaggle jobs, original synthetic portfolios and an independent local simulator. Local simulator responses are demonstration data and are excluded from instructor reply/hire metrics.",
                 ),
                 (
                     "p",
-                    "The implementation began on November 15, 2026. The owner confirmed that the original November 12 PDF deadline was extended to midnight PKT at the end of November 15. Commit timestamps remain unaltered. No human panel, hidden-test result or recorded demo is fabricated. This report distinguishes measured local behavior and subsequent deployment checks from unavailable external evaluations. "
-                    + deployment_note,
+                    deployment_note,
                 ),
                 (
                     "p",
@@ -261,6 +278,10 @@ def main():
                     "p",
                     "Dependency audits were run after upgrading affected libraries. The supported MCP 1.x line is retained because the required LangChain adapter caps SDK <2; its tested release has no remaining reported advisory in the recorded audit. The current lockfile fixes transitive versions. The audit is a point-in-time check, not a guarantee that software is vulnerability-free.",
                 ),
+                (
+                    "p",
+                    "A separate registration failure required 999 database operations during account setup. Batched seeding reduced the local count to two, and a fresh public account registered in 2.26 seconds while health checks continued responding. The check verified the initial wallet, portfolio, messages, login and tenant isolation without sending proposals. Sources: evals/results/registration.json and registration_local.json.",
+                ),
             ],
         ),
         (
@@ -272,12 +293,12 @@ def main():
                 ),
                 (
                     "p",
-                    "The instructor November 2 change request was unavailable. No implementation time or line-count claim is fabricated. Connects surcharge, polling intervals, thresholds and budgets are external configuration. A controlled local surcharge test can preview the resulting cost without changing the graph; it is explicitly separate from the missing actual platform update.",
+                    "The November 2 policy change was not supplied, so its implementation effort could not be evaluated. Connects surcharge, polling intervals, thresholds and budgets are configuration values. A local surcharge test demonstrates cost recalculation; it does not evaluate the missing instructor change request.",
                 ),
                 ("table", (["Dev job", "Design", "Failure category", "Fix status"], failures)),
                 (
                     "p",
-                    "These failed development cases are selected from actual raw observations, with unique job IDs. Provider/tool errors, wrong bid/skip decisions and unsupported initial claims remain in the evidence. Earlier integration work also exposed omitted metadata, a checkpoint-driver incompatibility and a signup redirect race; corresponding fixes passed retrieval/workflow/browser checks. No unexecuted model repair is described as successful. A richer failure taxonomy awaits independent dev labels and instructor outcomes.",
+                    "The table selects ten unique development jobs across unsupported claims, wrong decisions and provider failures. The verifier removed the flagged claims in the cited cases; human usefulness ratings are still required. Separate integration failures included omitted metadata, checkpoint-driver incompatibility and a signup redirect race. Their regression checks passed. Independent development labels are needed to extend the taxonomy to pricing and proposal-quality failures.",
                 ),
             ],
         ),
@@ -295,7 +316,7 @@ def main():
                 ),
                 (
                     "p",
-                    "Remaining external gates: instructor GigSim/personas/dev labels/policy update; independent human calibration/panel; Upwork/GitHub account integration verification; published article/video; and the instructor hidden run. Public app/MCP status is documented separately above. Reviewer credentials are generated from environment and excluded from source, archives and report. They are intended only for a private Classroom comment.",
+                    "Human proposal ratings, judge calibration and a blind panel were not conducted. Instructor simulator outcomes and the policy-change study require the missing materials. Live Upwork/GitHub account integration remains unverified; hidden evaluation is performed by the instructor. The technical article is published at https://gigbid-wr80.onrender.com/blog/gigbid. Reviewer access is shared privately; the demo video is submitted separately.",
                 ),
                 (
                     "p",
@@ -308,7 +329,11 @@ def main():
             ],
         ),
     ]
-    markdown = ["# GigBid R&D report", "Engineering design review | 2026-11-15 | original implementation", ""]
+    sections += [
+        ("9. Compiled bid workflow", [("graph", ("docs/graphs/bid.png", 6.55, 8.65))]),
+        ("10. Compiled conversation workflow", [("graph", ("docs/graphs/conversation.png", 5.8, 7.2))]),
+    ]
+    markdown = ["# GigBid R&D report", "Muhammad Momin Munir | 22I-0854 | Agentic AI Assignment-02", ""]
     for title, blocks in sections:
         markdown += ["## " + title, ""]
         for kind, value in blocks:
@@ -318,10 +343,32 @@ def main():
                 markdown += [table(value[0], value[1]), ""]
             elif kind == "image":
                 markdown += [f"![Retrieval comparison](../{value})", ""]
+            elif kind == "graph":
+                markdown += [f"![{title}](../{value[0]})", ""]
     (ROOT / "docs/RnD_Report.md").write_text("\n".join(markdown), encoding="utf-8")
     output = ROOT / "output/pdf/RnD_Report.pdf"
     output.parent.mkdir(parents=True, exist_ok=True)
     styles = getSampleStyleSheet()
+    styles.add(
+        ParagraphStyle(
+            name="AssignmentTitle",
+            fontName="Helvetica-Bold",
+            fontSize=18,
+            leading=23,
+            spaceAfter=10,
+            textColor=colors.HexColor("#195d4b"),
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="StudentDetails",
+            fontName="Helvetica",
+            fontSize=11,
+            leading=16,
+            spaceAfter=4,
+            textColor=colors.HexColor("#253b38"),
+        )
+    )
     styles.add(
         ParagraphStyle(
             name="GigCaption",
@@ -369,12 +416,19 @@ def main():
         topMargin=50,
         bottomMargin=42,
         title="GigBid R&D report",
-        author="GigBid project",
+        author="Muhammad Momin Munir",
     )
     story = []
     for index, (title, blocks) in enumerate(sections):
         if index:
             story.append(PageBreak())
+        else:
+            story.append(Paragraph("Agentic AI Assignment-02", styles["AssignmentTitle"]))
+            story.append(
+                Paragraph("<b>Name:</b> Muhammad Momin Munir", styles["StudentDetails"])
+            )
+            story.append(Paragraph("<b>Roll Number:</b> 22I-0854", styles["StudentDetails"]))
+            story.append(Spacer(1, 20))
         story.append(Paragraph("GIGBID / ENGINEERING REVIEW", styles["GigCaption"]))
         story.append(Spacer(1, 9))
         story.append(Paragraph(html.escape(title), styles["GigHeading"]))
@@ -411,11 +465,14 @@ def main():
                 story += [tab, Spacer(1, 13)]
             elif kind == "image":
                 story += [Image(str(ROOT / value), width=6.6 * inch, height=2.44 * inch), Spacer(1, 10)]
+            elif kind == "graph":
+                path, width, height = value
+                story.append(Image(str(ROOT / path), width=width * inch, height=height * inch))
 
     def footer(canvas, document):
         canvas.setFont("Helvetica", 8)
         canvas.setFillColor(colors.HexColor("#7f8d80"))
-        canvas.drawString(42, 23, "GigBid | measured evidence; external gates disclosed")
+        canvas.drawString(42, 23, "GigBid | AI-4016 Assignment 02")
         canvas.drawRightString(A4[0] - 42, 23, str(document.page))
 
     doc.build(story, onFirstPage=footer, onLaterPages=footer)

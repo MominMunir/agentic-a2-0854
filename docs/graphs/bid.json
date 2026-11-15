@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "id": "__start__",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "__start__"
+      }
+    },
+    {
+      "id": "corrective_retrieval",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "corrective_retrieval"
+      }
+    },
+    {
+      "id": "join_analysis",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "join_analysis"
+      }
+    },
+    {
+      "id": "analyst",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "analyst"
+      }
+    },
+    {
+      "id": "risk_assessor",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "risk_assessor"
+      }
+    },
+    {
+      "id": "fit_matcher",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "fit_matcher"
+      }
+    },
+    {
+      "id": "decide",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "decide"
+      }
+    },
+    {
+      "id": "pricing",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "pricing"
+      }
+    },
+    {
+      "id": "writer",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "writer"
+      }
+    },
+    {
+      "id": "verifier",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "verifier"
+      }
+    },
+    {
+      "id": "critic",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "critic"
+      }
+    },
+    {
+      "id": "compliance_guard",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "compliance_guard"
+      }
+    },
+    {
+      "id": "dry_run",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "dry_run"
+      }
+    },
+    {
+      "id": "human_review",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "human_review"
+      }
+    },
+    {
+      "id": "execute",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "execute"
+      }
+    },
+    {
+      "id": "__end__"
+    }
+  ],
+  "edges": [
+    {
+      "source": "__start__",
+      "target": "analyst",
+      "conditional": true
+    },
+    {
+      "source": "__start__",
+      "target": "fit_matcher",
+      "conditional": true
+    },
+    {
+      "source": "__start__",
+      "target": "risk_assessor",
+      "conditional": true
+    },
+    {
+      "source": "analyst",
+      "target": "join_analysis"
+    },
+    {
+      "source": "compliance_guard",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "compliance_guard",
+      "target": "dry_run",
+      "conditional": true
+    },
+    {
+      "source": "corrective_retrieval",
+      "target": "decide"
+    },
+    {
+      "source": "critic",
+      "target": "compliance_guard",
+      "conditional": true
+    },
+    {
+      "source": "critic",
+      "target": "writer",
+      "conditional": true
+    },
+    {
+      "source": "decide",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "decide",
+      "target": "pricing",
+      "conditional": true
+    },
+    {
+      "source": "dry_run",
+      "target": "human_review"
+    },
+    {
+      "source": "fit_matcher",
+      "target": "join_analysis"
+    },
+    {
+      "source": "human_review",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "human_review",
+      "target": "execute",
+      "conditional": true
+    },
+    {
+      "source": "join_analysis",
+      "target": "corrective_retrieval",
+      "conditional": true
+    },
+    {
+      "source": "join_analysis",
+      "target": "decide",
+      "conditional": true
+    },
+    {
+      "source": "pricing",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "pricing",
+      "target": "writer",
+      "conditional": true
+    },
+    {
+      "source": "risk_assessor",
+      "target": "join_analysis"
+    },
+    {
+      "source": "verifier",
+      "target": "critic"
+    },
+    {
+      "source": "writer",
+      "target": "verifier"
+    },
+    {
+      "source": "execute",
+      "target": "__end__"
+    }
+  ]
+}

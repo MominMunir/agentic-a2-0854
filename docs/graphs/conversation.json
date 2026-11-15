@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "__start__",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "__start__"
+      }
+    },
+    {
+      "id": "client_liaison",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "client_liaison"
+      }
+    },
+    {
+      "id": "verifier",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "verifier"
+      }
+    },
+    {
+      "id": "compliance_guard",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "compliance_guard"
+      }
+    },
+    {
+      "id": "dry_run",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "dry_run"
+      }
+    },
+    {
+      "id": "human_review",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "human_review"
+      }
+    },
+    {
+      "id": "execute",
+      "type": "runnable",
+      "data": {
+        "id": [
+          "langgraph",
+          "_internal",
+          "_runnable",
+          "RunnableCallable"
+        ],
+        "name": "execute"
+      }
+    },
+    {
+      "id": "__end__"
+    }
+  ],
+  "edges": [
+    {
+      "source": "__start__",
+      "target": "client_liaison"
+    },
+    {
+      "source": "client_liaison",
+      "target": "verifier"
+    },
+    {
+      "source": "compliance_guard",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "compliance_guard",
+      "target": "dry_run",
+      "conditional": true
+    },
+    {
+      "source": "dry_run",
+      "target": "human_review"
+    },
+    {
+      "source": "human_review",
+      "target": "__end__",
+      "conditional": true
+    },
+    {
+      "source": "human_review",
+      "target": "execute",
+      "conditional": true
+    },
+    {
+      "source": "verifier",
+      "target": "compliance_guard"
+    },
+    {
+      "source": "execute",
+      "target": "__end__"
+    }
+  ]
+}

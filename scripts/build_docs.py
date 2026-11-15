@@ -89,14 +89,9 @@ def main():
         encoding="utf-8",
     )
     (ROOT / "docs/graphs").mkdir(exist_ok=True)
-    from langgraph.checkpoint.memory import InMemorySaver
-    from agent.graphs.bid_graph import build_graph as bid
-    from agent.graphs.conversation_graph import build_graph as conversation
+    from scripts.render_graphs import main as render_graphs
 
-    for name, fn in [("bid", bid), ("conversation", conversation)]:
-        (ROOT / f"docs/graphs/{name}.mmd").write_text(
-            fn(InMemorySaver()).get_graph().draw_mermaid(), encoding="utf-8"
-        )
+    render_graphs()
     schema = json.loads((ROOT / "tests/contract/tool_schemas.json").read_text(encoding="utf-8"))
     inventory = []
     for server, entries in schema.items():
@@ -220,12 +215,19 @@ degraded mode and mobile layout. Model/API studies can be subject to quota limit
 - [Verified public deployment status](docs/DEPLOYMENT_STATUS.md)
 - [Three saved workflow traces](docs/traces/README.md) and [resume bullets](docs/Resume_Bullets.md)
 
+Trace examples: [scam skip](docs/traces/scam-skip.json),
+[approved proposal](docs/traces/approved-proposal.json),
+[critic revision](docs/traces/critic-loop.json),
+[Postgres recovery](docs/traces/postgres-restart.json).
+
+![Compiled bid graph](docs/graphs/bid.svg)
+![Compiled conversation graph](docs/graphs/conversation.svg)
+
 The source repository is public. See the live deployment status above and the
-free deployment guide. Article/video publication remains pending. Reviewer
+free deployment guide. Reviewer
 credentials are generated from environment variables, excluded from the release,
-and shared privately. The owner confirmed an extension to midnight PKT at the end
-of November 15, 2026; the original PDF lists November 12. Commit dates remain
-unaltered. See [the submission and viva guide](docs/SUBMISSION_GUIDE.md).
+and shared privately. The [technical article](https://gigbid-wr80.onrender.com/blog/gigbid)
+is published on my engineering blog. The demo video is submitted separately.
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print("README, results tables, tool inventory and code-derived graph diagrams regenerated.")

@@ -8,7 +8,8 @@ from apps.api.streaming import parse_event
 
 def scrub(value):
     if isinstance(value, dict):
-        return {
+        historical = value.get("provenance") == "kaggle" or value.get("synthetic") is False
+        result = {
             key: scrub(item)
             for key, item in value.items()
             if key
@@ -22,7 +23,11 @@ def scrub(value):
                 "app_secret_key",
                 "token_encryption_key",
             }
+            and not (historical and key in {"title", "description", "text", "client_name", "client_company"})
         }
+        if historical:
+            result["publication_note"] = "Historical job prose omitted; IDs, provenance, skills and prices retained."
+        return result
     if isinstance(value, list):
         return [scrub(item) for item in value]
     return value

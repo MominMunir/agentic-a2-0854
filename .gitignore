@@ -22,3 +22,7 @@ dist/
 tmp/
 *.log
 evaluation/raw/orchestration-progress.jsonl
+evaluation/annotations/*.csv
+evaluation/annotations/*_key.json
+docs/SUBMISSION_GUIDE.md
+docs/DEMO_REHEARSAL.md

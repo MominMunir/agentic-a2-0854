@@ -55,10 +55,10 @@ midnight PKT at the end of November 15, 2026. Commit timestamps remain unaltered
 | R10, D, E6 | React+TS/FastAPI, reviewer auth, compose | E2E onboarding/approve/reject/edit/outage; deploy checklist |
 | D screens | signin/onboard, inbox/detail, studio, pipeline, messages, runs, analytics, settings | responsive screenshots and Playwright report |
 | E2 | CI tests, smoke evaluation, schema/secrets/source checks | threshold gates; evals/results plus evaluation raw files |
-| Research A (40 tasks) | fine/coarse/rewritten tool study | selection/arguments/tokens; model runs pending model access |
-| Research B | preregistered retrieval hypothesis and ablations | gold relevance; unsupported claims; judge kappa on 30 human labels |
-| Research C (50 jobs) | ReAct/prebuilt-supervisor/handwritten runners | accuracy, violations, reply/hire, actual tokens/latency |
-| Models | 2 open configurations, CPU embeddings/reranker, optional paid | hardware/TPS/API costs; requires available models |
+| Research A (40 tasks) | fine/coarse/rewritten tool study | actual Groq selection/arguments/tokens in tool_study.json |
+| Research B | preregistered retrieval hypothesis and component comparisons | synthetic relevance and unsupported claims measured; human/judge calibration not conducted |
+| Research C (50 attempts per design) | ReAct/prebuilt-supervisor/handwritten runners | retained accuracy/usage/latency; unequal quota failures prevent fair ranking |
+| Models | 2 hosted open configurations, CPU embeddings/reranker | actual returned usage and client latency; local LLM throughput not measured |
 | X1 | agency mode across three synthetic profiles | routing accuracy and evidence/persona isolation |
 | Deliverables | README, report, article, demo, Docker MCP install, résumé bullets | links to actual result files; packaging manifest |
 

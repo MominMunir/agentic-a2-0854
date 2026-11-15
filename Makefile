@@ -1,4 +1,4 @@
-.PHONY: dev test eval seed demo lint package report
+.PHONY: dev test eval seed demo lint package report submission
 dev:
 	docker compose up --build
 seed:
@@ -8,6 +8,7 @@ test:
 	python -m pytest -q
 eval:
 	python -m evaluation.run
+	python -m evals.runners.gigsim_outcomes
 demo:
 	python scripts/smoke_graph.py --live
 lint:
@@ -17,3 +18,5 @@ package:
 	python scripts/package_release.py
 report:
 	python scripts/build_report.py
+submission:
+	python scripts/package_submission.py

@@ -70,9 +70,11 @@ def build_graph(checkpointer, store=None):
     graph.add_edge("client_liaison", "verifier")
     graph.add_edge("verifier", "compliance_guard")
     graph.add_conditional_edges(
-        "compliance_guard", lambda s: "dry_run" if s["compliance"]["allowed"] else END
+        "compliance_guard", lambda s: "dry_run" if s["compliance"]["allowed"] else END, ["dry_run", END]
     )
     graph.add_edge("dry_run", "human_review")
-    graph.add_conditional_edges("human_review", lambda s: "execute" if s["status"] == "approved" else END)
+    graph.add_conditional_edges(
+        "human_review", lambda s: "execute" if s["status"] == "approved" else END, ["execute", END]
+    )
     graph.add_edge("execute", END)
     return graph.compile(checkpointer=checkpointer, store=store)

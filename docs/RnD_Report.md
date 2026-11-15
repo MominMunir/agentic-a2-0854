@@ -1,5 +1,5 @@
 # GigBid R&D report
-Engineering design review | 2026-11-15 | original implementation
+Muhammad Momin Munir | 22I-0854 | Agentic AI Assignment-02
 
 ## 1. Problem, constraints and evidence boundaries
 
@@ -7,9 +7,9 @@ GigBid assists job discovery, risk assessment, fit matching, pricing, proposal w
 
 Declared budgets, registered before experiments: analysis p95 <=60 s, proposal p95 <=120 s, <=12,000 tokens and <=35 graph steps per thread, at most two Writer revisions, USD 0.05/job and USD 0.10/proposal for inference. USD figures in this report are estimates from actual returned token usage and configured public list prices; they are not the account invoice. Quota delays are included in run latency.
 
-The workspace supplied a reference scaffold and assignment PDF, but no instructor GigSim service/package, full personas, dev labels, hidden set or November 2 policy update. The user confirmed these were not available. This implementation therefore separates historical Kaggle jobs from original synthetic portfolios and a local rule-based simulator. No local reply is labeled as an instructor or real-client outcome.
+The instructor GigSim package, full persona corpus, independent development labels and November 2 policy update were not supplied. I used historical Kaggle jobs, original synthetic portfolios and an independent local simulator. Local simulator responses are demonstration data and are excluded from instructor reply/hire metrics.
 
-The implementation began on November 15, 2026. The owner confirmed that the original November 12 PDF deadline was extended to midnight PKT at the end of November 15. Commit timestamps remain unaltered. No human panel, hidden-test result or recorded demo is fabricated. This report distinguishes measured local behavior and subsequent deployment checks from unavailable external evaluations. Public deployment verified at https://gigbid-wr80.onrender.com; authenticated Portfolio MCP at https://gigbid-wr80.onrender.com/portfolio/mcp. Reviewer login, an actual open-model draft awaiting approval, scoped HTTP MCP, Neon checkpoint storage and Qdrant access are recorded in evals/results/public_deployment.json. This verifies one synthetic workflow, not uptime or hiring outcomes.
+Public deployment verified at https://gigbid-wr80.onrender.com; authenticated Portfolio MCP at https://gigbid-wr80.onrender.com/portfolio/mcp. Reviewer login, an actual open-model draft awaiting approval, scoped HTTP MCP, Neon checkpoint storage and Qdrant access are recorded in evals/results/public_deployment.json. This verifies one synthetic workflow, not uptime or hiring outcomes.
 
 Reproducibility: evaluation/raw contains per-query and per-run observations; evals/results contains committed summaries. Source-specific SHA-256 hashes, provenance, software versions and selection rules accompany retrieval results. The report generator reads these files directly. docs/IMPLEMENTATION_PLAN.md records the requirement map and hypotheses before code/experiments.
 
@@ -103,26 +103,28 @@ CI includes tests, schema snapshots, secret/instructor-directory gates and a 30-
 
 Dependency audits were run after upgrading affected libraries. The supported MCP 1.x line is retained because the required LangChain adapter caps SDK <2; its tested release has no remaining reported advisory in the recorded audit. The current lockfile fixes transitive versions. The audit is a point-in-time check, not a guarantee that software is vulnerability-free.
 
+A separate registration failure required 999 database operations during account setup. Batched seeding reduced the local count to two, and a fresh public account registered in 2.26 seconds while health checks continued responding. The check verified the initial wallet, portfolio, messages, login and tenant isolation without sending proposals. Sources: evals/results/registration.json and registration_local.json.
+
 ## 7. Extension, policy change and failure analysis
 
 X1 agency routing compares evidence-supported requirement coverage across personas, selects only above threshold and drafts using the chosen member. Its frozen synthetic routing evaluation reports n=180, accuracy=1.0; source evals/results/agency.json. This measures routing correctness and evidence isolation, not hiring success or team availability.
 
-The instructor November 2 change request was unavailable. No implementation time or line-count claim is fabricated. Connects surcharge, polling intervals, thresholds and budgets are external configuration. A controlled local surcharge test can preview the resulting cost without changing the graph; it is explicitly separate from the missing actual platform update.
+The November 2 policy change was not supplied, so its implementation effort could not be evaluated. Connects surcharge, polling intervals, thresholds and budgets are configuration values. A local surcharge test demonstrates cost recalculation; it does not evaluate the missing instructor change request.
 
 | Dev job | Design | Failure category | Fix status |
 | --- | --- | --- | --- |
-| syn-job-001 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-002 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-003 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-004 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-005 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-006 | react | wrong bid/skip | Retained; no unmeasured fix claimed |
-| syn-job-007 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-008 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-009 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
-| syn-job-010 | react | unsupported draft claim | Retained; no unmeasured fix claimed |
+| syn-job-001 | react | unsupported draft claim | Verifier removed flagged claims; usefulness unrated. |
+| syn-job-006 | react | wrong bid/skip | Decision repair not evaluated. |
+| syn-job-062 | react | tool/provider error | Provider failure retained; rerun incomplete. |
+| syn-job-002 | react | unsupported draft claim | Verifier removed flagged claims; usefulness unrated. |
+| syn-job-024 | react | wrong bid/skip | Decision repair not evaluated. |
+| syn-job-003 | supervisor | tool/provider error | Provider failure retained; rerun incomplete. |
+| syn-job-004 | react | unsupported draft claim | Verifier removed flagged claims; usefulness unrated. |
+| syn-job-030 | react | wrong bid/skip | Decision repair not evaluated. |
+| syn-job-005 | supervisor | tool/provider error | Provider failure retained; rerun incomplete. |
+| syn-job-007 | react | unsupported draft claim | Verifier removed flagged claims; usefulness unrated. |
 
-These failed development cases are selected from actual raw observations, with unique job IDs. Provider/tool errors, wrong bid/skip decisions and unsupported initial claims remain in the evidence. Earlier integration work also exposed omitted metadata, a checkpoint-driver incompatibility and a signup redirect race; corresponding fixes passed retrieval/workflow/browser checks. No unexecuted model repair is described as successful. A richer failure taxonomy awaits independent dev labels and instructor outcomes.
+The table selects ten unique development jobs across unsupported claims, wrong decisions and provider failures. The verifier removed the flagged claims in the cited cases; human usefulness ratings are still required. Separate integration failures included omitted metadata, checkpoint-driver incompatibility and a signup redirect race. Their regression checks passed. Independent development labels are needed to extend the taxonomy to pricing and proposal-quality failures.
 
 ## 8. Conclusions, reproducibility and remaining gates
 
@@ -130,8 +132,16 @@ The available evidence supports a functioning freelancer workspace with evidence
 
 Reproduce with uv sync --frozen --extra dev --extra retrieval; bootstrap, generate_data and seed; then pytest, evaluation.run, evaluation.tool_study, evaluation.orchestration --limit 50 and evaluation.agency_eval. Frontend npm ci/build/test:e2e uses a generated OpenAPI contract. Raw metrics, plots, tests and logs are retained in evaluation; summaries are in evals/results. docs/RUNBOOK.md covers deployment, recovery and GitHub publication.
 
-Remaining external gates: instructor GigSim/personas/dev labels/policy update; independent human calibration/panel; Upwork/GitHub account integration verification; published article/video; and the instructor hidden run. Public app/MCP status is documented separately above. Reviewer credentials are generated from environment and excluded from source, archives and report. They are intended only for a private Classroom comment.
+Human proposal ratings, judge calibration and a blind panel were not conducted. Instructor simulator outcomes and the policy-change study require the missing materials. Live Upwork/GitHub account integration remains unverified; hidden evaluation is performed by the instructor. The technical article is published at https://gigbid-wr80.onrender.com/blog/gigbid. Reviewer access is shared privately; the demo video is submitted separately.
 
 Primary references: LangGraph persistence and interrupts (docs.langchain.com/oss/python/langgraph); official MCP Python SDK (github.com/modelcontextprotocol/python-sdk); official GitHub MCP (github.com/github/github-mcp-server); official Upwork MCP (upwork.com/ai/mcp); Groq supported models/pricing (console.groq.com/docs/models); Phoenix deployment/authentication (arize.com/docs/phoenix/deployment/authentication). Dataset attribution and terms are preserved in docs/DATA_CARD.md and data/real_manifest.json.
 
 Design conclusion: retain the measured retrieval winner and hard approval/grounding boundaries. Advanced retrieval and more agents should earn their complexity on independent data. Preserve negative results, failed attempts and missing measurements; they are operational evidence for the next iteration.
+
+## 9. Compiled bid workflow
+
+![9. Compiled bid workflow](../docs/graphs/bid.png)
+
+## 10. Compiled conversation workflow
+
+![10. Compiled conversation workflow](../docs/graphs/conversation.png)

@@ -94,10 +94,15 @@ def build_graph(checkpointer, store=None):
         lambda s: "corrective_retrieval"
         if settings().rag_variant == "v8" and s["fit"]["score"] < 0.55
         else "decide",
+        ["corrective_retrieval", "decide"],
     )
     graph.add_edge("corrective_retrieval", "decide")
-    graph.add_conditional_edges("decide", lambda s: "pricing" if s["decision"]["action"] == "bid" else END)
-    graph.add_conditional_edges("pricing", lambda s: "writer" if s["price"]["within_budget"] else END)
+    graph.add_conditional_edges(
+        "decide", lambda s: "pricing" if s["decision"]["action"] == "bid" else END, ["pricing", END]
+    )
+    graph.add_conditional_edges(
+        "pricing", lambda s: "writer" if s["price"]["within_budget"] else END, ["writer", END]
+    )
     graph.add_edge("writer", "verifier")
     graph.add_edge("verifier", "critic")
     graph.add_conditional_edges(
@@ -105,11 +110,14 @@ def build_graph(checkpointer, store=None):
         lambda s: "writer"
         if not s["critique"]["accepted"] and s.get("revision", 0) <= policy()["budgets"]["max_revisions"]
         else "compliance_guard",
+        ["writer", "compliance_guard"],
     )
     graph.add_conditional_edges(
-        "compliance_guard", lambda s: "dry_run" if s["compliance"]["allowed"] else END
+        "compliance_guard", lambda s: "dry_run" if s["compliance"]["allowed"] else END, ["dry_run", END]
     )
     graph.add_edge("dry_run", "human_review")
-    graph.add_conditional_edges("human_review", lambda s: "execute" if s["status"] == "approved" else END)
+    graph.add_conditional_edges(
+        "human_review", lambda s: "execute" if s["status"] == "approved" else END, ["execute", END]
+    )
     graph.add_edge("execute", END)
     return graph.compile(checkpointer=checkpointer, store=store)
