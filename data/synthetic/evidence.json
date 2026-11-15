@@ -1,0 +1,6452 @@
+[
+  {
+    "id": "ml-project-0-0-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-0",
+    "title": "Retail Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-0-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-0",
+    "title": "Retail Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-0-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-0",
+    "title": "Retail Churn classification baseline",
+    "text": "# Churn classification baseline\n# retail demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-0-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-0",
+    "title": "Retail Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-0-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-0",
+    "title": "Retail Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-0-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-1",
+    "title": "Healthcare Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-1",
+    "title": "Healthcare Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-1",
+    "title": "Healthcare Churn classification baseline",
+    "text": "# Churn classification baseline\n# healthcare demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-1",
+    "title": "Healthcare Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-1",
+    "title": "Healthcare Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-0-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-2",
+    "title": "Finance Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-2",
+    "title": "Finance Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-2",
+    "title": "Finance Churn classification baseline",
+    "text": "# Churn classification baseline\n# finance demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-2",
+    "title": "Finance Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-2",
+    "title": "Finance Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-0-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-3",
+    "title": "Education Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-3",
+    "title": "Education Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-3",
+    "title": "Education Churn classification baseline",
+    "text": "# Churn classification baseline\n# education demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-3",
+    "title": "Education Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-3",
+    "title": "Education Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-0-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-4",
+    "title": "Logistics Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-4",
+    "title": "Logistics Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-4",
+    "title": "Logistics Churn classification baseline",
+    "text": "# Churn classification baseline\n# logistics demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-4",
+    "title": "Logistics Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-4",
+    "title": "Logistics Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-0-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-0-5",
+    "title": "Energy Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-0-5",
+    "title": "Energy Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-0-5",
+    "title": "Energy Churn classification baseline",
+    "text": "# Churn classification baseline\n# energy demonstration using Python, scikit-learn, classification",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-0-5",
+    "title": "Energy Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-0-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-0-5",
+    "title": "Energy Churn classification baseline",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "classification"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-0-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-0",
+    "title": "Retail Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-0",
+    "title": "Retail Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-0",
+    "title": "Retail Document search service",
+    "text": "# Document search service\n# retail demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-0",
+    "title": "Retail Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-0",
+    "title": "Retail Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-1-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-1",
+    "title": "Healthcare Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-1",
+    "title": "Healthcare Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-1",
+    "title": "Healthcare Document search service",
+    "text": "# Document search service\n# healthcare demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-1",
+    "title": "Healthcare Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-1",
+    "title": "Healthcare Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-1-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-2",
+    "title": "Finance Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-2",
+    "title": "Finance Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-2",
+    "title": "Finance Document search service",
+    "text": "# Document search service\n# finance demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-2",
+    "title": "Finance Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-2",
+    "title": "Finance Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-1-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-3",
+    "title": "Education Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-3",
+    "title": "Education Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-3",
+    "title": "Education Document search service",
+    "text": "# Document search service\n# education demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-3",
+    "title": "Education Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-3",
+    "title": "Education Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-1-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-4",
+    "title": "Logistics Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-4",
+    "title": "Logistics Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-4",
+    "title": "Logistics Document search service",
+    "text": "# Document search service\n# logistics demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-4",
+    "title": "Logistics Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-4",
+    "title": "Logistics Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-1-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-1-5",
+    "title": "Energy Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-1-5",
+    "title": "Energy Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-1-5",
+    "title": "Energy Document search service",
+    "text": "# Document search service\n# energy demonstration using RAG, FastAPI, Python",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-1-5",
+    "title": "Energy Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-1-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-1-5",
+    "title": "Energy Document search service",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-1-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-0",
+    "title": "Retail Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-0",
+    "title": "Retail Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-0",
+    "title": "Retail Image quality classifier",
+    "text": "# Image quality classifier\n# retail demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-0",
+    "title": "Retail Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-0",
+    "title": "Retail Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-2-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-1",
+    "title": "Healthcare Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-1",
+    "title": "Healthcare Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-1",
+    "title": "Healthcare Image quality classifier",
+    "text": "# Image quality classifier\n# healthcare demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-1",
+    "title": "Healthcare Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-1",
+    "title": "Healthcare Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-2-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-2",
+    "title": "Finance Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-2",
+    "title": "Finance Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-2",
+    "title": "Finance Image quality classifier",
+    "text": "# Image quality classifier\n# finance demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-2",
+    "title": "Finance Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-2",
+    "title": "Finance Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-2-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-3",
+    "title": "Education Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-3",
+    "title": "Education Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-3",
+    "title": "Education Image quality classifier",
+    "text": "# Image quality classifier\n# education demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-3",
+    "title": "Education Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-3",
+    "title": "Education Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/ml-project-2-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-4",
+    "title": "Logistics Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-4",
+    "title": "Logistics Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-4",
+    "title": "Logistics Image quality classifier",
+    "text": "# Image quality classifier\n# logistics demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-4",
+    "title": "Logistics Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-4",
+    "title": "Logistics Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/ml-project-2-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-case_study",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "ml-project-2-5",
+    "title": "Energy Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-readme",
+    "persona": "ml",
+    "type": "readme",
+    "project": "ml-project-2-5",
+    "title": "Energy Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-code",
+    "persona": "ml",
+    "type": "code",
+    "project": "ml-project-2-5",
+    "title": "Energy Image quality classifier",
+    "text": "# Image quality classifier\n# energy demonstration using PyTorch, Python",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-review",
+    "persona": "ml",
+    "type": "review",
+    "project": "ml-project-2-5",
+    "title": "Energy Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/ml-project-2-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-proposal",
+    "persona": "ml",
+    "type": "proposal",
+    "project": "ml-project-2-5",
+    "title": "Energy Image quality classifier",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/ml-project-2-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-0",
+    "title": "Retail Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-0",
+    "title": "Retail Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-0",
+    "title": "Retail Customer operations portal",
+    "text": "# Customer operations portal\n# retail demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-0",
+    "title": "Retail Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-0",
+    "title": "Retail Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-3-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-1",
+    "title": "Healthcare Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-1",
+    "title": "Healthcare Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-1",
+    "title": "Healthcare Customer operations portal",
+    "text": "# Customer operations portal\n# healthcare demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-1",
+    "title": "Healthcare Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-1",
+    "title": "Healthcare Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-3-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-2",
+    "title": "Finance Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-2",
+    "title": "Finance Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-2",
+    "title": "Finance Customer operations portal",
+    "text": "# Customer operations portal\n# finance demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-2",
+    "title": "Finance Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-2",
+    "title": "Finance Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-3-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-3",
+    "title": "Education Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-3",
+    "title": "Education Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-3",
+    "title": "Education Customer operations portal",
+    "text": "# Customer operations portal\n# education demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-3",
+    "title": "Education Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-3",
+    "title": "Education Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-3-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-4",
+    "title": "Logistics Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-4",
+    "title": "Logistics Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-4",
+    "title": "Logistics Customer operations portal",
+    "text": "# Customer operations portal\n# logistics demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-4",
+    "title": "Logistics Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-4",
+    "title": "Logistics Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-3-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-3-5",
+    "title": "Energy Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-3-5",
+    "title": "Energy Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-3-5",
+    "title": "Energy Customer operations portal",
+    "text": "# Customer operations portal\n# energy demonstration using React, TypeScript, PostgreSQL",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-3-5",
+    "title": "Energy Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-3-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-3-5",
+    "title": "Energy Customer operations portal",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-3-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-0",
+    "title": "Retail Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-0",
+    "title": "Retail Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-0",
+    "title": "Retail Deployment automation",
+    "text": "# Deployment automation\n# retail demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-0",
+    "title": "Retail Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-0",
+    "title": "Retail Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-4-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-1",
+    "title": "Healthcare Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-1",
+    "title": "Healthcare Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-1",
+    "title": "Healthcare Deployment automation",
+    "text": "# Deployment automation\n# healthcare demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-1",
+    "title": "Healthcare Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-1",
+    "title": "Healthcare Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-4-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-2",
+    "title": "Finance Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-2",
+    "title": "Finance Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-2",
+    "title": "Finance Deployment automation",
+    "text": "# Deployment automation\n# finance demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-2",
+    "title": "Finance Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-2",
+    "title": "Finance Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-4-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-3",
+    "title": "Education Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-3",
+    "title": "Education Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-3",
+    "title": "Education Deployment automation",
+    "text": "# Deployment automation\n# education demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-3",
+    "title": "Education Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-3",
+    "title": "Education Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-4-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-4",
+    "title": "Logistics Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-4",
+    "title": "Logistics Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-4",
+    "title": "Logistics Deployment automation",
+    "text": "# Deployment automation\n# logistics demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-4",
+    "title": "Logistics Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-4",
+    "title": "Logistics Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-4-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-4-5",
+    "title": "Energy Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-4-5",
+    "title": "Energy Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-4-5",
+    "title": "Energy Deployment automation",
+    "text": "# Deployment automation\n# energy demonstration using Docker, Node.js, PostgreSQL",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-4-5",
+    "title": "Energy Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-4-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-4-5",
+    "title": "Energy Deployment automation",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "skills": [
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-4-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-0",
+    "title": "Retail Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-0",
+    "title": "Retail Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-0",
+    "title": "Retail Inventory API",
+    "text": "# Inventory API\n# retail demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-0",
+    "title": "Retail Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-0",
+    "title": "Retail Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-5-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-1",
+    "title": "Healthcare Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-1",
+    "title": "Healthcare Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-1",
+    "title": "Healthcare Inventory API",
+    "text": "# Inventory API\n# healthcare demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-1",
+    "title": "Healthcare Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-1",
+    "title": "Healthcare Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-5-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-2",
+    "title": "Finance Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-2",
+    "title": "Finance Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-2",
+    "title": "Finance Inventory API",
+    "text": "# Inventory API\n# finance demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-2",
+    "title": "Finance Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-2",
+    "title": "Finance Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-5-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-3",
+    "title": "Education Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-3",
+    "title": "Education Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-3",
+    "title": "Education Inventory API",
+    "text": "# Inventory API\n# education demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-3",
+    "title": "Education Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-3",
+    "title": "Education Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/web-project-5-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-4",
+    "title": "Logistics Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-4",
+    "title": "Logistics Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-4",
+    "title": "Logistics Inventory API",
+    "text": "# Inventory API\n# logistics demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-4",
+    "title": "Logistics Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-4",
+    "title": "Logistics Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/web-project-5-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-case_study",
+    "persona": "web",
+    "type": "case_study",
+    "project": "web-project-5-5",
+    "title": "Energy Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-readme",
+    "persona": "web",
+    "type": "readme",
+    "project": "web-project-5-5",
+    "title": "Energy Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-code",
+    "persona": "web",
+    "type": "code",
+    "project": "web-project-5-5",
+    "title": "Energy Inventory API",
+    "text": "# Inventory API\n# energy demonstration using FastAPI, TypeScript, Docker",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-review",
+    "persona": "web",
+    "type": "review",
+    "project": "web-project-5-5",
+    "title": "Energy Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/web-project-5-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-proposal",
+    "persona": "web",
+    "type": "proposal",
+    "project": "web-project-5-5",
+    "title": "Energy Inventory API",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "skills": [
+      "FastAPI",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/web-project-5-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-0",
+    "title": "Retail Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-0",
+    "title": "Retail Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-0",
+    "title": "Retail Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# retail demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-0",
+    "title": "Retail Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-0",
+    "title": "Retail Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-6-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-1",
+    "title": "Healthcare Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-1",
+    "title": "Healthcare Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-1",
+    "title": "Healthcare Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# healthcare demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-1",
+    "title": "Healthcare Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-1",
+    "title": "Healthcare Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-6-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-2",
+    "title": "Finance Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-2",
+    "title": "Finance Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-2",
+    "title": "Finance Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# finance demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-2",
+    "title": "Finance Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-2",
+    "title": "Finance Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-6-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-3",
+    "title": "Education Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-3",
+    "title": "Education Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-3",
+    "title": "Education Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# education demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-3",
+    "title": "Education Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-3",
+    "title": "Education Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-6-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-4",
+    "title": "Logistics Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-4",
+    "title": "Logistics Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-4",
+    "title": "Logistics Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# logistics demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-4",
+    "title": "Logistics Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-4",
+    "title": "Logistics Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-6-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-6-5",
+    "title": "Energy Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-6-5",
+    "title": "Energy Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-6-5",
+    "title": "Energy Revenue analytics pipeline",
+    "text": "# Revenue analytics pipeline\n# energy demonstration using SQL, dbt, Power BI",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-6-5",
+    "title": "Energy Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-6-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-6-5",
+    "title": "Energy Revenue analytics pipeline",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-6-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-0",
+    "title": "Retail Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-0",
+    "title": "Retail Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-0",
+    "title": "Retail Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# retail demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-0",
+    "title": "Retail Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-0",
+    "title": "Retail Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-7-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-1",
+    "title": "Healthcare Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-1",
+    "title": "Healthcare Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-1",
+    "title": "Healthcare Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# healthcare demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-1",
+    "title": "Healthcare Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-1",
+    "title": "Healthcare Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-7-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-2",
+    "title": "Finance Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-2",
+    "title": "Finance Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-2",
+    "title": "Finance Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# finance demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-2",
+    "title": "Finance Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-2",
+    "title": "Finance Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-7-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-3",
+    "title": "Education Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-3",
+    "title": "Education Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-3",
+    "title": "Education Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# education demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-3",
+    "title": "Education Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-3",
+    "title": "Education Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-7-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-4",
+    "title": "Logistics Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-4",
+    "title": "Logistics Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-4",
+    "title": "Logistics Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# logistics demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-4",
+    "title": "Logistics Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-4",
+    "title": "Logistics Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-7-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-7-5",
+    "title": "Energy Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-7-5",
+    "title": "Energy Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-7-5",
+    "title": "Energy Customer cohort analysis",
+    "text": "# Customer cohort analysis\n# energy demonstration using Python, pandas, statistics",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-7-5",
+    "title": "Energy Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-7-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-7-5",
+    "title": "Energy Customer cohort analysis",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "skills": [
+      "Python",
+      "pandas",
+      "statistics"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-7-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-0",
+    "title": "Retail Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-0-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-0",
+    "title": "Retail Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-0-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-0",
+    "title": "Retail Supply chain reporting",
+    "text": "# Supply chain reporting\n# retail demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-0-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-0",
+    "title": "Retail Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-0-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-0",
+    "title": "Retail Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-01-15",
+    "industry": "retail",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-8-0-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-1",
+    "title": "Healthcare Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-1-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-1",
+    "title": "Healthcare Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-1-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-1",
+    "title": "Healthcare Supply chain reporting",
+    "text": "# Supply chain reporting\n# healthcare demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-1-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-1",
+    "title": "Healthcare Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-1-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-1",
+    "title": "Healthcare Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-02-15",
+    "industry": "healthcare",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-8-1-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-2",
+    "title": "Finance Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-2-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-2",
+    "title": "Finance Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-2-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-2",
+    "title": "Finance Supply chain reporting",
+    "text": "# Supply chain reporting\n# finance demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-2-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-2",
+    "title": "Finance Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-2-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-2",
+    "title": "Finance Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-03-15",
+    "industry": "finance",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-8-2-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-3",
+    "title": "Education Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-3-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-3",
+    "title": "Education Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-3-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-3",
+    "title": "Education Supply chain reporting",
+    "text": "# Supply chain reporting\n# education demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-3-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-3",
+    "title": "Education Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-3-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-3",
+    "title": "Education Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-04-15",
+    "industry": "education",
+    "outcome": "won",
+    "source": "synthetic://seed-4016/data-project-8-3-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-4",
+    "title": "Logistics Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-4-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-4",
+    "title": "Logistics Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-4-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-4",
+    "title": "Logistics Supply chain reporting",
+    "text": "# Supply chain reporting\n# logistics demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-4-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-4",
+    "title": "Logistics Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-4-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-4",
+    "title": "Logistics Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-05-15",
+    "industry": "logistics",
+    "outcome": "replied",
+    "source": "synthetic://seed-4016/data-project-8-4-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-case_study",
+    "persona": "data",
+    "type": "case_study",
+    "project": "data-project-8-5",
+    "title": "Energy Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-5-case_study",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-readme",
+    "persona": "data",
+    "type": "readme",
+    "project": "data-project-8-5",
+    "title": "Energy Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-5-readme",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-code",
+    "persona": "data",
+    "type": "code",
+    "project": "data-project-8-5",
+    "title": "Energy Supply chain reporting",
+    "text": "# Supply chain reporting\n# energy demonstration using SQL, Python, Power BI",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-5-code",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-review",
+    "persona": "data",
+    "type": "review",
+    "project": "data-project-8-5",
+    "title": "Energy Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "delivered",
+    "source": "synthetic://seed-4016/data-project-8-5-review",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-proposal",
+    "persona": "data",
+    "type": "proposal",
+    "project": "data-project-8-5",
+    "title": "Energy Supply chain reporting",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2026-06-15",
+    "industry": "energy",
+    "outcome": "ignored",
+    "source": "synthetic://seed-4016/data-project-8-5-proposal",
+    "provenance": "synthetic",
+    "generator": "GigBid deterministic seed 4016",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-0",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-0",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/0",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-1",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-1",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/1",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-2",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-2",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/2",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-3",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-3",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/3",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-4",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-4",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/4",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-5",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-5",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/5",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-6",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-6",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/6",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-7",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-7",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/7",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-8",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-8",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/8",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-9",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-9",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/9",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-10",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-10",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/10",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-11",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-11",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/11",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-12",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-12",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/12",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-13",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-13",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/13",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-14",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-14",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/14",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-15",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-15",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/15",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-16",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-16",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/16",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-17",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-17",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/17",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-18",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-18",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/18",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-19",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-19",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/19",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-20",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-20",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/20",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-21",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-21",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/21",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-22",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-22",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/22",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-23",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-23",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/23",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-24",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-24",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/24",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-25",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-25",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/25",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-26",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-26",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/26",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-27",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-27",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/27",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-28",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-28",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/28",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-29",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-29",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/29",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-30",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-30",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/30",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-31",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-31",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/31",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-32",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-32",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/32",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-33",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-33",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/33",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-34",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-34",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/34",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-35",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-35",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/35",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-36",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-36",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/36",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-37",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-37",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/37",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-38",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-38",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/38",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-39",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-39",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/39",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-40",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-40",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/40",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-41",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-41",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/41",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-42",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-42",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/42",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-43",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-43",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/43",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-44",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-44",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/44",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-45",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-45",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/45",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-46",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-46",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/46",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-47",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-47",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/47",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-48",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-48",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/48",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-49",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-49",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/49",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-50",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-50",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/50",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-51",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-51",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/51",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-52",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-52",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/52",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-53",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-53",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/53",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-54",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-54",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/54",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-55",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-55",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/55",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-56",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-56",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/56",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-57",
+    "persona": "ml",
+    "type": "case_study",
+    "project": "other-57",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/57",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-58",
+    "persona": "web",
+    "type": "case_study",
+    "project": "other-58",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/58",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "distractor-59",
+    "persona": "data",
+    "type": "case_study",
+    "project": "other-59",
+    "title": "Graphic design and marketing",
+    "text": "Designed a brand identity with typography and social media illustrations.",
+    "skills": [
+      "Illustrator",
+      "branding"
+    ],
+    "date": "2026-01-01",
+    "industry": "media",
+    "outcome": "delivered",
+    "source": "synthetic://distractor/59",
+    "provenance": "synthetic",
+    "synthetic": true
+  }
+]

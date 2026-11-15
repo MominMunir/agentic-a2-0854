@@ -1,0 +1,16 @@
+{
+  "id": "web",
+  "name": "Sam Rivera",
+  "headline": "Full-stack Developer",
+  "skills": [
+    "TypeScript",
+    "React",
+    "PostgreSQL",
+    "Node.js",
+    "Docker",
+    "FastAPI"
+  ],
+  "rate": 40,
+  "synthetic": true,
+  "provenance": "synthetic"
+}

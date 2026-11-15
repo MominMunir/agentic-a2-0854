@@ -1,0 +1,19 @@
+{
+  "base_url": "http://localhost:8080",
+  "public": false,
+  "api_health": {
+    "status": "ok",
+    "marketplace": "local_simulator",
+    "inference": "groq",
+    "version": "1.0.0"
+  },
+  "http_mcp_tools": [
+    "search_evidence",
+    "get_case_study",
+    "list_skills"
+  ],
+  "postgres_interrupt_survived_api_restart": true,
+  "run_id": "bcc79818-9212-4e8e-8581-5c30fbbfd7d5",
+  "side_effect_status": "not executed; left for reviewer approval",
+  "mode": "actual Compose with configured open models"
+}

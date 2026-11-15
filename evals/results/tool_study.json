@@ -1,0 +1,54 @@
+{
+  "design": "40 balanced known-call tasks evaluated in one batch per toolset; tokens/task are amortized, not separately measured task costs",
+  "provenance": "synthetic_tools_actual_Groq",
+  "results": [
+    {
+      "variant": "fine",
+      "n": 40,
+      "selection_accuracy": 1.0,
+      "argument_accuracy": 1.0,
+      "amortized_tokens_per_task": 50.4,
+      "usage": {
+        "node": "router",
+        "model": "openai/gpt-oss-20b",
+        "input_tokens": 1185,
+        "output_tokens": 831,
+        "usd_estimate": 0.00033817499999999997,
+        "pricing_basis": "public list price; not account invoice",
+        "latency_seconds": 1.3849546000001283
+      }
+    },
+    {
+      "variant": "coarse",
+      "n": 40,
+      "selection_accuracy": 1.0,
+      "argument_accuracy": 1.0,
+      "amortized_tokens_per_task": 55.5,
+      "usage": {
+        "node": "router",
+        "model": "openai/gpt-oss-20b",
+        "input_tokens": 1182,
+        "output_tokens": 1038,
+        "usd_estimate": 0.00040004999999999994,
+        "pricing_basis": "public list price; not account invoice",
+        "latency_seconds": 1.5235653999998249
+      }
+    },
+    {
+      "variant": "rewritten",
+      "n": 40,
+      "selection_accuracy": 1.0,
+      "argument_accuracy": 0.8,
+      "amortized_tokens_per_task": 52.825,
+      "usage": {
+        "node": "router",
+        "model": "openai/gpt-oss-20b",
+        "input_tokens": 1231,
+        "output_tokens": 882,
+        "usd_estimate": 0.00035692499999999996,
+        "pricing_basis": "public list price; not account invoice",
+        "latency_seconds": 1.4940020999993067
+      }
+    }
+  ]
+}

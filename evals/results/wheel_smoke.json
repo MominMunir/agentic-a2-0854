@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "wheel": "gigbid_portfolio-1.0.0-py3-none-any.whl",
+  "bytes": 70160,
+  "isolated_from_source_imports": true,
+  "writable_home": true,
+  "tools": [
+    "search_evidence",
+    "get_case_study",
+    "list_skills"
+  ],
+  "prompt": true,
+  "embedding": "hash fixture for distribution/transport test only; real retrieval tested separately"
+}

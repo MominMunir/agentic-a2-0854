@@ -1,0 +1,37 @@
+name: Test and validate
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      UV_CACHE_DIR: .cache/uv
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: {version: '0.12.5', python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - run: uv sync --frozen --extra dev --extra retrieval
+      - run: uv run python scripts/bootstrap.py
+      - run: uv run python scripts/generate_data.py
+      - run: uv run python scripts/seed.py
+      - run: uv run ruff check agent apps/api gigbid_core mcp_servers rag worker simulator scripts tests evaluation conftest.py
+      - run: uv run python scripts/repository_checks.py
+      - run: uv run python -m pytest -q --junitxml=evaluation/pytest.xml
+      - run: uv run python scripts/export_openapi.py
+      - run: npm ci && npm run api:generate && npm run build
+        working-directory: apps/web
+      - run: npx playwright install --with-deps chromium
+        working-directory: apps/web
+      - run: npm run test:e2e
+        working-directory: apps/web
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification
+          path: |
+            evaluation/pytest.xml
+            evaluation/playwright.json
+            apps/web/playwright-report
+      - run: git diff --exit-code -- gigsim

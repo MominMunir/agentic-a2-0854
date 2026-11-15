@@ -1,0 +1,53 @@
+{
+  "provenance": "synthetic_rule_baseline_not_LLM",
+  "n": 180,
+  "bid": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "scam": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "price_in_band_rate": 1.0,
+  "injection": {
+    "n": 12,
+    "defended_rule_attack_success_rate": 0.0,
+    "limitations": "Rule-level blocked-routing metric; not a model prompt-injection benchmark or undefended LLM measurement"
+  },
+  "claim_challenge": {
+    "n": 5,
+    "unsupported_before": 5,
+    "unsupported_after": 0
+  },
+  "per_persona": {
+    "ml": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "web": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "data": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "pending": [
+    "Instructor GigSim reply/hire rates",
+    "Independent human panel",
+    "30-item human/judge calibration",
+    "Hidden test results"
+  ]
+}

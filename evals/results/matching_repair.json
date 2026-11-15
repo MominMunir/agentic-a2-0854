@@ -1,0 +1,16 @@
+{
+  "provenance": "synthetic_dev_actual_open_embeddings_and_MCP",
+  "scope": "Fit-only controlled query-alignment repair; risk and model generation excluded",
+  "results": [
+    {
+      "mode": "requirements",
+      "n": 50,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "whole_job",
+      "n": 50,
+      "accuracy": 1.0
+    }
+  ]
+}

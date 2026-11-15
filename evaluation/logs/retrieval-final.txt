@@ -1,0 +1,8 @@
+Evaluated v0 on 180 synthetic queries
+Evaluated v1 on 180 synthetic queries
+Evaluated v2 on 180 synthetic queries
+Evaluated v3 on 180 synthetic queries
+Evaluated v4 on 180 synthetic queries
+Evaluated v8 on 180 synthetic queries
+Selected from development split: v0
+Decision and claim-challenge metrics saved.

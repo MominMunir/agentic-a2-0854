@@ -1,0 +1,21 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__(<p>__start__</p>)
+	client_liaison(client_liaison)
+	verifier(verifier)
+	compliance_guard(compliance_guard)
+	dry_run(dry_run)
+	human_review(human_review)
+	execute(execute)
+	__end__(<p>__end__</p>)
+	__start__ --> client_liaison;
+	client_liaison --> verifier;
+	verifier --> compliance_guard;
+	compliance_guard --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

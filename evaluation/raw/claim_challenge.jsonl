@@ -1,0 +1,5 @@
+{"text": "", "claims": [{"text": "I built 100 systems.", "status": "unsupported", "evidence_ids": [], "reason": "Experience claim lacks a valid evidence citation"}], "unsupported_before": 1, "unsupported_after": 0}
+{"text": "", "claims": [{"text": "I guarantee a 100% gain.", "status": "unsupported", "evidence_ids": [], "reason": "Contact details, off-platform language or guarantee"}], "unsupported_before": 1, "unsupported_after": 0}
+{"text": "", "claims": [{"text": "Built a Python API. [wrong-id]", "status": "unsupported", "evidence_ids": [], "reason": "Experience claim lacks a valid evidence citation"}], "unsupported_before": 1, "unsupported_after": 0}
+{"text": "", "claims": [{"text": "I have 15 years of experience.", "status": "unsupported", "evidence_ids": [], "reason": "Experience claim lacks a valid evidence citation"}], "unsupported_before": 1, "unsupported_after": 0}
+{"text": "", "claims": [{"text": "Contact me at person@example.com.", "status": "unsupported", "evidence_ids": [], "reason": "Contact details, off-platform language or guarantee"}], "unsupported_before": 1, "unsupported_after": 0}

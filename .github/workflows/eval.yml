@@ -1,0 +1,15 @@
+name: Evaluation gate
+on: [pull_request]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: {version: '0.12.5', python-version: '3.12'}
+      - run: uv sync --frozen --extra dev --extra retrieval
+      - run: uv run python scripts/bootstrap.py && uv run python scripts/generate_data.py
+      - run: uv run python -m evaluation.gate
+        env: {EMBEDDING_BACKEND: hash_smoke, INFERENCE_MODE: smoke}
+      - uses: actions/upload-artifact@v4
+        with: {name: smoke-metrics, path: evals/results}

@@ -1,0 +1,18 @@
+warning: Failed to uninstall package at .venv\Lib\site-packages\xxhash-3.8.2.dist-info due to missing `RECORD` file. Installation may result in an incomplete environment.
+Uninstalled 6 packages in 217ms
+Installed 9 packages in 473ms
+ + gigbid-portfolio==1.0.0 (from file:///A:/Semester%20Last/Agentic%20AI/A2/gigbid)
+ - googleapis-common-protos==1.75.0
+ + googleapis-common-protos==1.76.0
+ + hf-xet==1.8.0
+ - huggingface-hub==0.36.2
+ + huggingface-hub==1.33.0
+ + packaging==26.3
+ - portalocker==2.10.1
+ + portalocker==4.4.2
+ - protobuf==5.29.6
+ + protobuf==7.36.2
+ - sse-starlette==3.0.3
+ + sse-starlette==3.7.0
+ - xxhash==3.8.2
+ + xxhash==4.1.0

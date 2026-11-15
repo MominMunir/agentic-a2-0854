@@ -1,0 +1,50 @@
+services:
+  - type: web
+    name: gigbid
+    runtime: docker
+    plan: free
+    dockerfilePath: ./infra/docker/render.Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_SECRET_KEY
+        generateValue: true
+      - key: TOKEN_ENCRYPTION_KEY
+        sync: false
+      - key: REVIEWER_EMAIL
+        sync: false
+      - key: REVIEWER_PASSWORD
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: CHECKPOINT_URL
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: gigbid-redis
+          property: connectionString
+      - key: MODEL_PROFILE
+        value: open
+      - key: INFERENCE_MODE
+        value: groq
+      - key: OPEN_MODEL_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: OPEN_MODEL_API_KEY
+        sync: false
+      - key: EMBEDDING_BACKEND
+        value: fastembed
+      - key: RAG_VARIANT
+        value: v0
+      - key: MARKETPLACE_MODE
+        value: local_simulator
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+  - type: keyvalue
+    name: gigbid-redis
+    plan: free
+    ipAllowList: []

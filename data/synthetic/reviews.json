@@ -1,0 +1,434 @@
+[
+  {
+    "id": "ml-project-0-0-review",
+    "persona": "ml",
+    "rating": 4.224262560273919,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-review",
+    "persona": "ml",
+    "rating": 4.161708240113982,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-review",
+    "persona": "ml",
+    "rating": 4.223796201693236,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-review",
+    "persona": "ml",
+    "rating": 4.852586543951593,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-review",
+    "persona": "ml",
+    "rating": 4.421971819045164,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-5-review",
+    "persona": "ml",
+    "rating": 4.724950805854943,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-review",
+    "persona": "ml",
+    "rating": 4.041908054947826,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-review",
+    "persona": "ml",
+    "rating": 4.715997207436037,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-review",
+    "persona": "ml",
+    "rating": 4.1131172347598035,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-review",
+    "persona": "ml",
+    "rating": 4.594256474252767,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-review",
+    "persona": "ml",
+    "rating": 4.072599799140754,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-5-review",
+    "persona": "ml",
+    "rating": 4.910284863524543,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-review",
+    "persona": "ml",
+    "rating": 4.95790854281677,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-review",
+    "persona": "ml",
+    "rating": 4.924052914800705,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-review",
+    "persona": "ml",
+    "rating": 4.542331557614259,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-review",
+    "persona": "ml",
+    "rating": 4.0376487734098125,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-review",
+    "persona": "ml",
+    "rating": 4.49554066404234,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-5-review",
+    "persona": "ml",
+    "rating": 4.641729261864302,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-review",
+    "persona": "web",
+    "rating": 4.8087630312824095,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-review",
+    "persona": "web",
+    "rating": 4.715731612119286,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-review",
+    "persona": "web",
+    "rating": 4.957851219005423,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-review",
+    "persona": "web",
+    "rating": 4.901336643170597,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-review",
+    "persona": "web",
+    "rating": 4.941070195592033,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-5-review",
+    "persona": "web",
+    "rating": 4.391774320080231,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-review",
+    "persona": "web",
+    "rating": 4.748213924494188,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-review",
+    "persona": "web",
+    "rating": 4.613232533862632,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-review",
+    "persona": "web",
+    "rating": 4.116673757849763,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-review",
+    "persona": "web",
+    "rating": 4.060839703297592,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-review",
+    "persona": "web",
+    "rating": 4.026428220114422,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-5-review",
+    "persona": "web",
+    "rating": 4.577446961247057,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-review",
+    "persona": "web",
+    "rating": 4.839017517228782,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-review",
+    "persona": "web",
+    "rating": 4.137939036277796,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-review",
+    "persona": "web",
+    "rating": 4.053789288971059,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-review",
+    "persona": "web",
+    "rating": 4.545565681970911,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-review",
+    "persona": "web",
+    "rating": 4.256297739143916,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-5-review",
+    "persona": "web",
+    "rating": 4.4400051426245986,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-review",
+    "persona": "data",
+    "rating": 4.536850554509815,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-review",
+    "persona": "data",
+    "rating": 4.738749295316237,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-review",
+    "persona": "data",
+    "rating": 4.421346756008471,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-review",
+    "persona": "data",
+    "rating": 4.387251372341773,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-review",
+    "persona": "data",
+    "rating": 4.618200306821894,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-5-review",
+    "persona": "data",
+    "rating": 4.009385225922017,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-review",
+    "persona": "data",
+    "rating": 4.207931906041533,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-review",
+    "persona": "data",
+    "rating": 4.0438569179495625,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-review",
+    "persona": "data",
+    "rating": 4.374269877049976,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-review",
+    "persona": "data",
+    "rating": 4.712085753628002,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-review",
+    "persona": "data",
+    "rating": 4.436824638246145,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-5-review",
+    "persona": "data",
+    "rating": 4.8877071001105215,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-review",
+    "persona": "data",
+    "rating": 4.82527425987487,
+    "text": "Clear documentation for the retail demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-review",
+    "persona": "data",
+    "rating": 4.1407206876194635,
+    "text": "Clear documentation for the healthcare demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-review",
+    "persona": "data",
+    "rating": 4.350498587123398,
+    "text": "Clear documentation for the finance demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-review",
+    "persona": "data",
+    "rating": 4.353840976323294,
+    "text": "Clear documentation for the education demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-review",
+    "persona": "data",
+    "rating": 4.560164338937694,
+    "text": "Clear documentation for the logistics demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-5-review",
+    "persona": "data",
+    "rating": 4.280792402496852,
+    "text": "Clear documentation for the energy demonstration.",
+    "provenance": "synthetic",
+    "synthetic": true
+  }
+]

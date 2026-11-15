@@ -1,0 +1,62 @@
+models:
+  cheap_node_fallbacks:
+    open: openai/gpt-oss-120b
+    ollama: qwen3:4b
+  profiles:
+    open:
+      small: openai/gpt-oss-20b
+      strong: openai/gpt-oss-120b
+    open_alt:
+      small: openai/gpt-oss-20b
+      strong: openai/gpt-oss-20b
+    ollama:
+      small: qwen3:0.6b
+      strong: qwen3:4b
+    paid:
+      small: ""
+      strong: ""
+  nodes:
+    scout: small
+    analyst: small
+    risk_assessor: small
+    fit_matcher: small
+    pricing: small
+    writer: strong
+    critic: strong
+    client_liaison: strong
+    router: small
+  embedding_model: BAAI/bge-small-en-v1.5
+  reranker_model: ms-marco-MiniLM-L-12-v2
+  input_usd_per_million: 0
+  output_usd_per_million: 0
+  max_output_tokens: 1800
+  pricing:
+    openai/gpt-oss-20b: [0.075, 0.30]
+    openai/gpt-oss-120b: [0.15, 0.60]
+budgets:
+  max_graph_steps: 35
+  max_revisions: 2
+  max_tokens_per_job: 12000
+  max_usd_per_job: 0.05
+  analysis_p95_seconds: 60
+  proposal_p95_seconds: 120
+thresholds:
+  minimum_fit_score: 0.55
+  watch_fit_score: 0.3
+  maximum_risk_score: 0.65
+marketplace:
+  requests_per_minute: 18
+  live_poll_seconds: 14400
+  simulator_poll_seconds: 7200
+  connect_surcharge: 0
+  policy_version: local-policy-2026-11-15
+  maximum_proposal_words: 300
+memory:
+  style_repeat_edits: 3
+  minimum_outcomes: 3
+  minimum_style_observations: 5
+agency:
+  voices:
+    ml: "Precise technical reasoning; emphasize reproducibility and validation."
+    web: "Clear product language; emphasize accessibility and reliable delivery."
+    data: "Decision-oriented analysis; explain assumptions and stakeholder handover."

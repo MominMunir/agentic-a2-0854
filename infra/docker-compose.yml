@@ -1,0 +1,111 @@
+name: gigbid
+x-common: &common
+  build:
+    context: ..
+    dockerfile: infra/docker/service.Dockerfile
+  env_file: ../.env
+  environment: &environment
+    APP_SECRET_KEY: ${APP_SECRET_KEY:?Run bootstrap and supply local secrets}
+    TOKEN_ENCRYPTION_KEY: ${TOKEN_ENCRYPTION_KEY:?Supply encryption key}
+    APP_ENV: ${DEPLOY_ENV:-development}
+    APP_URL: ${PUBLIC_APP_URL:-http://localhost:8080}
+    DATABASE_URL: postgresql+psycopg://gigbid:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}@postgres:5432/gigbid
+    CHECKPOINT_URL: postgresql://gigbid:${POSTGRES_PASSWORD}@postgres:5432/gigbid
+    REDIS_URL: redis://redis:6379/0
+    EXECUTOR: redis
+    MCP_TRANSPORT: http
+    PORTFOLIO_MCP_URL: http://portfolio:8101/mcp
+    MARKETPLACE_MCP_URL: http://marketplace:8102/mcp
+    WORKSPACE_MCP_URL: http://workspace:8103/mcp
+    GIGSIM_BASE_URL: http://gigsim:8081
+    MARKETPLACE_MODE: ${MARKETPLACE_MODE:-local_simulator}
+    QDRANT_URL: http://qdrant:6333
+    OLLAMA_BASE_URL: http://ollama:11434
+    OTEL_EXPORTER_OTLP_ENDPOINT: http://phoenix:6006
+  restart: unless-stopped
+  volumes:
+    - models:/app/.cache
+    - runtime:/app/data/runtime
+    - ../data/processed:/app/data/processed:ro
+  depends_on:
+    postgres: {condition: service_healthy}
+    redis: {condition: service_healthy}
+  security_opt: [no-new-privileges:true]
+
+services:
+  postgres:
+    image: postgres:16.9-alpine
+    environment:
+      POSTGRES_DB: gigbid
+      POSTGRES_USER: gigbid
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes: [postgres:/var/lib/postgresql/data]
+    healthcheck: {test: [CMD-SHELL, "pg_isready -U gigbid"], interval: 5s, timeout: 3s, retries: 20}
+    restart: unless-stopped
+  redis:
+    image: redis:7.4.3-alpine
+    command: [redis-server, --appendonly, 'yes']
+    volumes: [redis:/data]
+    healthcheck: {test: [CMD, redis-cli, ping], interval: 5s, timeout: 3s, retries: 20}
+    restart: unless-stopped
+  qdrant:
+    image: qdrant/qdrant:v1.14.1
+    volumes: [vectors:/qdrant/storage]
+    restart: unless-stopped
+  ollama:
+    image: ollama/ollama:0.7.1
+    volumes: [ollama:/root/.ollama]
+    restart: unless-stopped
+  phoenix:
+    image: ${PHOENIX_IMAGE:-arizephoenix/phoenix:latest}
+    volumes: [phoenix:/mnt/data]
+    environment: {PHOENIX_WORKING_DIR: /mnt/data, PHOENIX_ENABLE_AUTH: '${PHOENIX_ENABLE_AUTH:-false}'}
+    ports: [127.0.0.1:6006:6006]
+    restart: unless-stopped
+  seed:
+    <<: *common
+    command: [python, scripts/seed.py]
+    restart: 'no'
+  api:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [uvicorn, apps.api.main:app, --host, 0.0.0.0, --port, '8000', --proxy-headers]
+  worker:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [arq, worker.main.WorkerSettings]
+  portfolio:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [python, -m, mcp_servers.portfolio.server]
+    environment: {<<: *environment, MCP_SERVE_TRANSPORT: streamable-http, MCP_PORT: '8101'}
+    ports: [127.0.0.1:8101:8101]
+  marketplace:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [python, -m, mcp_servers.marketplace.server]
+    environment: {<<: *environment, MCP_SERVE_TRANSPORT: streamable-http, MCP_PORT: '8102'}
+  workspace:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [python, -m, mcp_servers.workspace.server]
+    environment: {<<: *environment, MCP_SERVE_TRANSPORT: streamable-http, MCP_PORT: '8103'}
+  gigsim:
+    <<: *common
+    depends_on: {seed: {condition: service_completed_successfully}}
+    command: [uvicorn, simulator.main:app, --host, 0.0.0.0, --port, '8081']
+    environment: {<<: *environment, MARKETPLACE_MODE: local_simulator}
+  web:
+    build: {context: .., dockerfile: infra/docker/web.Dockerfile}
+    ports: ['8080:80']
+    depends_on: [api]
+    restart: unless-stopped
+
+volumes:
+  postgres:
+  redis:
+  vectors:
+  ollama:
+  phoenix:
+  models:
+  runtime:

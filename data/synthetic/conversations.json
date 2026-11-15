@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ml-welcome",
+    "conversation_id": "ml-client-demo",
+    "role": "client",
+    "text": "Could you explain your validation approach and share interview availability?",
+    "intent": "interview",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-welcome",
+    "conversation_id": "web-client-demo",
+    "role": "client",
+    "text": "Could you explain your validation approach and share interview availability?",
+    "intent": "interview",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-welcome",
+    "conversation_id": "data-client-demo",
+    "role": "client",
+    "text": "Could you explain your validation approach and share interview availability?",
+    "intent": "interview",
+    "synthetic": true,
+    "provenance": "synthetic"
+  }
+]

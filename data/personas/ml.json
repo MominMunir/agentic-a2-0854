@@ -1,0 +1,16 @@
+{
+  "id": "ml",
+  "name": "Alex Morgan",
+  "headline": "AI / ML Engineer",
+  "skills": [
+    "Python",
+    "scikit-learn",
+    "classification",
+    "PyTorch",
+    "RAG",
+    "FastAPI"
+  ],
+  "rate": 45,
+  "synthetic": true,
+  "provenance": "synthetic"
+}

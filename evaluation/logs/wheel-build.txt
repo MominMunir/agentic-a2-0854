@@ -1,0 +1,3 @@
+warning: The cache directory `.cache\uv-restored` is inside the build source directory `.` and may be included in distributions
+Building wheel...
+Successfully built dist\wheels\gigbid_portfolio-1.0.0-py3-none-any.whl

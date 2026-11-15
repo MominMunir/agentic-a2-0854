@@ -1,0 +1,335 @@
+
+> gigbid-web@1.0.0 test:e2e
+> playwright test
+
+[WebServer] INFO:     Started server process [15928]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] (node:8224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:15588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\e2e\journeys.spec.ts:27:1 › onboarding persists profile and uploaded portfolio (6.4s)
+[WebServer] [11/15/26 13:05:09] INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                     [WebServer]          CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer] [11/15/26 13:05:12] INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  [WebServer] INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer] [11/15/26 13:05:13][WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  [WebServer] INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     [WebServer] Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer] [11/15/26 13:05:18][WebServer]  INFO     [WebServer] Processing request of type            [WebServer] server.py[WebServer] :733
+[WebServer]                              CallToolRequest                      [WebServer]               
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                       [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              [WebServer] ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                     [WebServer]          ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO    [WebServer]  Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+  ok 2 tests\e2e\journeys.spec.ts:59:1 › approval resumes saved interrupt and submits once (10.8s)
+[WebServer] [11/15/26 13:05:20] INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer] [11/15/26 13:05:23] INFO     [WebServer] Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  [WebServer] INFO    [WebServer]  Processing request of type            [WebServer] server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   [WebServer] 
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   [WebServer] 
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                       [WebServer]              
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer] [11/15/26 13:05:24][WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   [WebServer] 
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    [WebServer] 
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    [WebServer] 
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     [WebServer] Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+  ok 3 tests\e2e\journeys.spec.ts:82:1 › rejecting requires a reason and spends no Connects (11.2s)
+[WebServer] [11/15/26 13:05:31][WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     [WebServer] INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer] [11/15/26 13:05:34] INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  [WebServer] INFO    [WebServer]  Processing request of type            [WebServer] server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  [WebServer] INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              [WebServer] CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer] [11/15/26 13:05:35] INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type           [WebServer]  server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer] [11/15/26 13:05:40][WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                    [WebServer]  INFO     Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:733[WebServer] 
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     [WebServer] Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                      [WebServer]              
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     [WebServer] Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            server.py[WebServer] :733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO    [WebServer]  Processing request of type            server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+  ok 4 tests\e2e\journeys.spec.ts:100:1 › editing verifies the exact text before approval (10.6s)
+  ok 5 tests\e2e\journeys.spec.ts:116:1 › unavailable marketplace produces a useful degraded banner (1.8s)
+[WebServer] [11/15/26 13:05:43] INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:[WebServer] 733
+[WebServer]                              ListToolsRequest                                   
+[WebServer]                     INFO     Processing request of type            [WebServer] server.py:733
+[WebServer]                              CallToolRequest                                    
+[WebServer]                     INFO     Processing request of type            server.py:733
+[WebServer]                              ListToolsRequest                                   [WebServer] 
+  ok 6 tests\e2e\journeys.spec.ts:135:1 › inbox is responsive and captures actual UI (2.4s)
+
+  6 passed (56.7s)

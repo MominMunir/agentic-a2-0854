@@ -1,0 +1,16 @@
+.env
+.env.*
+.private
+.git
+.venv
+.cache
+**/node_modules
+**/dist
+**/playwright-report
+**/test-results
+data/raw
+data/processed
+data/runtime
+tmp
+dist
+evaluation

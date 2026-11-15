@@ -1,0 +1,8 @@
+# Replace these example hostnames with domains you control.
+app.example.com {
+    reverse_proxy web:80
+}
+portfolio.example.com {
+    reverse_proxy portfolio:8101
+}
+# Keep Marketplace, Workspace, database, Redis, Qdrant and Phoenix private.

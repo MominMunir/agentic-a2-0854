@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "schema_url": "https://render.com/schema/render.yaml.json",
+  "schema_sha256": "6c6721a602ef6d368d5c9384c473cefaae99980e43dd4b1adcf8a2f258fc54f4",
+  "services": [
+    {
+      "name": "gigbid",
+      "type": "web",
+      "plan": "free"
+    },
+    {
+      "name": "gigbid-redis",
+      "type": "keyvalue",
+      "plan": "free"
+    }
+  ]
+}

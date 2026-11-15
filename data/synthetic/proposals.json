@@ -1,0 +1,3962 @@
+[
+  {
+    "id": "ml-project-0-0-past",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-1-past",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-2-past",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-3-past",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-0-4-past",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-0-past",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-1-past",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-2-past",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-3-past",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-1-4-past",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-0-past",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-1-past",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-2-past",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-3-past",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-project-2-4-past",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-0-past",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-1-past",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-2-past",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-3-past",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-3-4-past",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-0-past",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-1-past",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-2-past",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-3-past",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-4-4-past",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-0-past",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-1-past",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-2-past",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-3-past",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "web-project-5-4-past",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-0-past",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-1-past",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-2-past",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-3-past",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-6-4-past",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-0-past",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-1-past",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-2-past",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-3-past",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-7-4-past",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-0-past",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-1-past",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-2-past",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-3-past",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "won",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "data-project-8-4-past",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "replied",
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "ml-proposal-history-0",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-1",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-2",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-3",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-4",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-5",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-6",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-7",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-8",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-9",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-10",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-11",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-12",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-13",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-14",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-15",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-16",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-17",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-18",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-19",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-20",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-21",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-22",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-23",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-24",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-25",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-26",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-27",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-28",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-29",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-30",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-31",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-32",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-33",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-34",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-35",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-36",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-37",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-38",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-39",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-40",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-41",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-42",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-43",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-44",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-45",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-46",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-47",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-48",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-49",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-50",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-51",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-52",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-53",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-54",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-55",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-56",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-57",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-58",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-59",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-60",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-61",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-62",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-63",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-64",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-65",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-66",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-67",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-68",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-69",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-70",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-71",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-72",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-73",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-74",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-75",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-76",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-77",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-78",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-79",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-80",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-81",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-82",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-83",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-84",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-85",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-86",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-87",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-88",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-89",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-90",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-91",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-92",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-93",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-94",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-95",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-96",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-97",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-98",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-99",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-100",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-101",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-102",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-103",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-104",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-105",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-106",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-107",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-108",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-109",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-110",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-111",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-112",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-113",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-114",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-115",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-116",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-117",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-118",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-119",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-120",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-121",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-122",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-123",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-124",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-125",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-126",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-127",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-128",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-129",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-130",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-131",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-132",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-133",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-134",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-135",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-136",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-137",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-138",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-139",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-140",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-141",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-142",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-143",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-144",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-145",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-146",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-147",
+    "persona": "ml",
+    "text": "Compared logistic regression and random forest with stratified validation and precision-recall curves.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-148",
+    "persona": "ml",
+    "text": "Built a retrieval service with document citations, API endpoints and a held-out relevance set.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "ml-proposal-history-149",
+    "persona": "ml",
+    "text": "Trained an image classifier with reproducible preprocessing and per-class evaluation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-0",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-1",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-2",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-3",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-4",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-5",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-6",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-7",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-8",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-9",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-10",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-11",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-12",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-13",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-14",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-15",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-16",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-17",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-18",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-19",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-20",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-21",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-22",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-23",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-24",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-25",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-26",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-27",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-28",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-29",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-30",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-31",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-32",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-33",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-34",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-35",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-36",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-37",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-38",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-39",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-40",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-41",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-42",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-43",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-44",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-45",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-46",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-47",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-48",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-49",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-50",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-51",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-52",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-53",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-54",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-55",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-56",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-57",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-58",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-59",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-60",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-61",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-62",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-63",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-64",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-65",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-66",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-67",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-68",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-69",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-70",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-71",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-72",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-73",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-74",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-75",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-76",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-77",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-78",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-79",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-80",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-81",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-82",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-83",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-84",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-85",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-86",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-87",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-88",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-89",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-90",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-91",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-92",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-93",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-94",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-95",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-96",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-97",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-98",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-99",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-100",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-101",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-102",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-103",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-104",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-105",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-106",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-107",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-108",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-109",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-110",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-111",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-112",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-113",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-114",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-115",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-116",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-117",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-118",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-119",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-120",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-121",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-122",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-123",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-124",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-125",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-126",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-127",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-128",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-129",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-130",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-131",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-132",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-133",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-134",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-135",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-136",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-137",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-138",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-139",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-140",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-141",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-142",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-143",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-144",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-145",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-146",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-147",
+    "persona": "web",
+    "text": "Built an accessible React portal with typed forms and a PostgreSQL audit trail.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-148",
+    "persona": "web",
+    "text": "Containerized a Node.js service and automated health checks with a PostgreSQL migration.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "web-proposal-history-149",
+    "persona": "web",
+    "text": "Delivered a FastAPI inventory API with a typed client and container health checks.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-0",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-1",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-2",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-3",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-4",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-5",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-6",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-7",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-8",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-9",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-10",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-11",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-12",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-13",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-14",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-15",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-16",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-17",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-18",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-19",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-20",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-21",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-22",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-23",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-24",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-25",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-26",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-27",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-28",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-29",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-30",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-31",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-32",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-33",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-34",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-35",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-36",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-37",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-38",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-39",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-40",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-41",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-42",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-43",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-44",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-45",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-46",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-47",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-48",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-49",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-50",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-51",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-52",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-53",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-54",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-55",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-56",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-57",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-58",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-59",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-60",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-61",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-62",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-63",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-64",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-65",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-66",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-67",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-68",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-69",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-70",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-71",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-72",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-73",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-74",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-75",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-76",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-77",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-78",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-79",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-80",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-81",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-82",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-83",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-84",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-85",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-86",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-87",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-88",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-89",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-90",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-91",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-92",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-93",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-94",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-95",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-96",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-97",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-98",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-99",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-100",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-101",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-102",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-103",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-104",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-105",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-106",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-107",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-108",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-109",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-110",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-111",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-112",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-113",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-114",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-115",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-116",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-117",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-118",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-119",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-120",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-121",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-122",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-123",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-124",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-125",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-126",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-127",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-128",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-129",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-130",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-131",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-132",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-133",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-134",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-135",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-136",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-137",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-138",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-139",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-140",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-141",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-142",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-143",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-144",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-145",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-146",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-147",
+    "persona": "data",
+    "text": "Created dbt transformations, SQL quality checks and a revenue dashboard in Power BI.",
+    "outcome": "won",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-148",
+    "persona": "data",
+    "text": "Analyzed customer cohorts with pandas, confidence intervals and documented statistical assumptions.",
+    "outcome": "replied",
+    "synthetic": true,
+    "provenance": "synthetic"
+  },
+  {
+    "id": "data-proposal-history-149",
+    "persona": "data",
+    "text": "Built validated SQL extracts and a Power BI reporting workflow with Python reconciliation.",
+    "outcome": "ignored",
+    "synthetic": true,
+    "provenance": "synthetic"
+  }
+]

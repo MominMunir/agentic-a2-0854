@@ -1,0 +1,8 @@
+* text=auto
+# Preserve the exact bytes referenced by evaluation source hashes.
+data/**/*.json -text
+evals/datasets/*.json -text
+evaluation/raw/*.jsonl -text
+*.png binary
+*.gif binary
+*.pdf binary

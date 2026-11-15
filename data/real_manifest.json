@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    {
+      "dataset": "ahmedmyalo/upwork-freelance-jobs-60k",
+      "url": "https://www.kaggle.com/datasets/ahmedmyalo/upwork-freelance-jobs-60k",
+      "license": "Apache 2.0",
+      "rows_scanned": 63950,
+      "kept": 500,
+      "duplicates_seen": 554,
+      "filtered": 61460,
+      "archive_sha256": "941fe3f5bd91befafb2be31ea9d6b935bbfa04ee894622ac10ca7875d58dba61"
+    },
+    {
+      "dataset": "asaniczka/upwork-job-postings-dataset-2024-50k-records",
+      "url": "https://www.kaggle.com/datasets/asaniczka/upwork-job-postings-dataset-2024-50k-records",
+      "license": "ODC Attribution License (ODC-By)",
+      "rows_scanned": 53058,
+      "kept": 500,
+      "duplicates_seen": 1,
+      "filtered": 51080,
+      "archive_sha256": "3f40f06c267f6429e6c9fdd9a81c0c9bb3a3c9eb85edadb1d6638394e9ce5b35"
+    }
+  ],
+  "total_jobs": 1000,
+  "redistribution": "Raw data excluded from release. Fetch and reproduce locally; licenses and attribution retained."
+}

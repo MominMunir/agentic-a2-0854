@@ -1,0 +1,548 @@
+{
+  "marketplace": [
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Search marketplace job postings. No writes or Connects spend.",
+      "inputSchema": {
+        "properties": {
+          "limit": {
+            "default": 30,
+            "maximum": 200,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "query": {
+            "default": "",
+            "title": "Query",
+            "type": "string"
+          }
+        },
+        "title": "search_jobsArguments",
+        "type": "object"
+      },
+      "name": "search_jobs"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Read one complete marketplace job by its stable ID.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "title": "get_jobArguments",
+        "type": "object"
+      },
+      "name": "get_job"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Read client spending, payment verification and past hiring; missing data stays unknown.",
+      "inputSchema": {
+        "properties": {
+          "client_id": {
+            "title": "Client Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "client_id"
+        ],
+        "title": "get_client_historyArguments",
+        "type": "object"
+      },
+      "name": "get_client_history"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Read remaining Connects and current weekly spend.",
+      "inputSchema": {
+        "properties": {},
+        "title": "get_connects_balanceArguments",
+        "type": "object"
+      },
+      "name": "get_connects_balance"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Read client messages, optionally within one conversation.",
+      "inputSchema": {
+        "properties": {
+          "conversation_id": {
+            "default": "",
+            "title": "Conversation Id",
+            "type": "string"
+          }
+        },
+        "title": "list_messagesArguments",
+        "type": "object"
+      },
+      "name": "list_messages"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true,
+        "readOnlyHint": false
+      },
+      "description": "Preview or create a draft. Non-preview requires content-bound human approval and an idempotency key.",
+      "inputSchema": {
+        "$defs": {
+          "ProposalWrite": {
+            "properties": {
+              "approval_token": {
+                "default": "",
+                "title": "Approval Token",
+                "type": "string"
+              },
+              "bid": {
+                "maximum": 1000000,
+                "minimum": 0,
+                "title": "Bid",
+                "type": "number"
+              },
+              "dry_run": {
+                "default": true,
+                "title": "Dry Run",
+                "type": "boolean"
+              },
+              "expected_connects_cost": {
+                "default": 0,
+                "maximum": 10000,
+                "minimum": 0,
+                "title": "Expected Connects Cost",
+                "type": "integer"
+              },
+              "idempotency_key": {
+                "maxLength": 160,
+                "minLength": 8,
+                "title": "Idempotency Key",
+                "type": "string"
+              },
+              "job_id": {
+                "maxLength": 160,
+                "minLength": 1,
+                "title": "Job Id",
+                "type": "string"
+              },
+              "screening_answers": {
+                "items": {
+                  "type": "string"
+                },
+                "maxItems": 20,
+                "title": "Screening Answers",
+                "type": "array"
+              },
+              "text": {
+                "maxLength": 10000,
+                "minLength": 10,
+                "title": "Text",
+                "type": "string"
+              }
+            },
+            "required": [
+              "job_id",
+              "text",
+              "bid",
+              "idempotency_key"
+            ],
+            "title": "ProposalWrite",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "request": {
+            "$ref": "#/$defs/ProposalWrite"
+          }
+        },
+        "required": [
+          "request"
+        ],
+        "title": "create_proposal_draftArguments",
+        "type": "object"
+      },
+      "name": "create_proposal_draft"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true,
+        "readOnlyHint": false
+      },
+      "description": "Preview or send an approved simulator proposal, spending displayed Connects exactly once. Live mode creates a confirmation draft only.",
+      "inputSchema": {
+        "$defs": {
+          "ProposalWrite": {
+            "properties": {
+              "approval_token": {
+                "default": "",
+                "title": "Approval Token",
+                "type": "string"
+              },
+              "bid": {
+                "maximum": 1000000,
+                "minimum": 0,
+                "title": "Bid",
+                "type": "number"
+              },
+              "dry_run": {
+                "default": true,
+                "title": "Dry Run",
+                "type": "boolean"
+              },
+              "expected_connects_cost": {
+                "default": 0,
+                "maximum": 10000,
+                "minimum": 0,
+                "title": "Expected Connects Cost",
+                "type": "integer"
+              },
+              "idempotency_key": {
+                "maxLength": 160,
+                "minLength": 8,
+                "title": "Idempotency Key",
+                "type": "string"
+              },
+              "job_id": {
+                "maxLength": 160,
+                "minLength": 1,
+                "title": "Job Id",
+                "type": "string"
+              },
+              "screening_answers": {
+                "items": {
+                  "type": "string"
+                },
+                "maxItems": 20,
+                "title": "Screening Answers",
+                "type": "array"
+              },
+              "text": {
+                "maxLength": 10000,
+                "minLength": 10,
+                "title": "Text",
+                "type": "string"
+              }
+            },
+            "required": [
+              "job_id",
+              "text",
+              "bid",
+              "idempotency_key"
+            ],
+            "title": "ProposalWrite",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "request": {
+            "$ref": "#/$defs/ProposalWrite"
+          }
+        },
+        "required": [
+          "request"
+        ],
+        "title": "submit_proposalArguments",
+        "type": "object"
+      },
+      "name": "submit_proposal"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true,
+        "readOnlyHint": false
+      },
+      "description": "Preview or send a human-approved message. Live mode creates a platform confirmation draft.",
+      "inputSchema": {
+        "$defs": {
+          "MessageWrite": {
+            "properties": {
+              "approval_token": {
+                "default": "",
+                "title": "Approval Token",
+                "type": "string"
+              },
+              "conversation_id": {
+                "maxLength": 160,
+                "minLength": 1,
+                "title": "Conversation Id",
+                "type": "string"
+              },
+              "dry_run": {
+                "default": true,
+                "title": "Dry Run",
+                "type": "boolean"
+              },
+              "idempotency_key": {
+                "maxLength": 160,
+                "minLength": 8,
+                "title": "Idempotency Key",
+                "type": "string"
+              },
+              "text": {
+                "maxLength": 10000,
+                "minLength": 1,
+                "title": "Text",
+                "type": "string"
+              }
+            },
+            "required": [
+              "conversation_id",
+              "text",
+              "idempotency_key"
+            ],
+            "title": "MessageWrite",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "request": {
+            "$ref": "#/$defs/MessageWrite"
+          }
+        },
+        "required": [
+          "request"
+        ],
+        "title": "send_messageArguments",
+        "type": "object"
+      },
+      "name": "send_message"
+    }
+  ],
+  "portfolio": [
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Find portfolio proof for a requirement. Filter persona/type/project/industry/outcome; returns exact source text, date and provenance.",
+      "inputSchema": {
+        "properties": {
+          "filters": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Filters"
+          },
+          "k": {
+            "default": 5,
+            "maximum": 20,
+            "minimum": 1,
+            "title": "K",
+            "type": "integer"
+          },
+          "requirement": {
+            "maxLength": 10000,
+            "minLength": 1,
+            "title": "Requirement",
+            "type": "string"
+          }
+        },
+        "required": [
+          "requirement"
+        ],
+        "title": "search_evidenceArguments",
+        "type": "object"
+      },
+      "name": "search_evidence"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Load one full evidence item by ID, scoped to the authenticated portfolio owner.",
+      "inputSchema": {
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "title": "get_case_studyArguments",
+        "type": "object"
+      },
+      "name": "get_case_study"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "List skills evidenced by this user's portfolio, grouped by persona.",
+      "inputSchema": {
+        "properties": {},
+        "title": "list_skillsArguments",
+        "type": "object"
+      },
+      "name": "list_skills"
+    }
+  ],
+  "workspace": [
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Read available 30-minute UTC slots from the local demonstration calendar.",
+      "inputSchema": {
+        "properties": {
+          "days": {
+            "default": 7,
+            "maximum": 30,
+            "minimum": 1,
+            "title": "Days",
+            "type": "integer"
+          }
+        },
+        "title": "free_calendar_slotsArguments",
+        "type": "object"
+      },
+      "name": "free_calendar_slots"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true,
+        "readOnlyHint": false
+      },
+      "description": "Create a tentative local calendar hold after approval; never an external invitation.",
+      "inputSchema": {
+        "properties": {
+          "approval_token": {
+            "default": "",
+            "title": "Approval Token",
+            "type": "string"
+          },
+          "dry_run": {
+            "default": true,
+            "title": "Dry Run",
+            "type": "boolean"
+          },
+          "end": {
+            "title": "End",
+            "type": "string"
+          },
+          "idempotency_key": {
+            "title": "Idempotency Key",
+            "type": "string"
+          },
+          "start": {
+            "title": "Start",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "title",
+          "idempotency_key"
+        ],
+        "title": "create_interview_holdArguments",
+        "type": "object"
+      },
+      "name": "create_interview_hold"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true,
+        "readOnlyHint": false
+      },
+      "description": "Save a local email draft after approval. Does not send email.",
+      "inputSchema": {
+        "properties": {
+          "approval_token": {
+            "default": "",
+            "title": "Approval Token",
+            "type": "string"
+          },
+          "body": {
+            "title": "Body",
+            "type": "string"
+          },
+          "dry_run": {
+            "default": true,
+            "title": "Dry Run",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "title": "Idempotency Key",
+            "type": "string"
+          },
+          "subject": {
+            "title": "Subject",
+            "type": "string"
+          }
+        },
+        "required": [
+          "subject",
+          "body",
+          "idempotency_key"
+        ],
+        "title": "create_email_draftArguments",
+        "type": "object"
+      },
+      "name": "create_email_draft"
+    }
+  ]
+}

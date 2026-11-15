@@ -1,0 +1,13 @@
+{
+  "seed": 4016,
+  "provenance": "synthetic",
+  "counts": {
+    "evidence": 330,
+    "jobs": 180,
+    "clients": 180,
+    "proposals": 495,
+    "reviews": 54,
+    "conversations": 3
+  },
+  "limitations": "Template-derived gold labels; not instructor assets or independent real-world outcomes. Domain-disjoint dev/holdout."
+}

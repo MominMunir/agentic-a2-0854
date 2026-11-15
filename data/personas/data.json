@@ -1,0 +1,16 @@
+{
+  "id": "data",
+  "name": "Jordan Lee",
+  "headline": "Data Analyst",
+  "skills": [
+    "Python",
+    "SQL",
+    "pandas",
+    "dbt",
+    "Power BI",
+    "statistics"
+  ],
+  "rate": 35,
+  "synthetic": true,
+  "provenance": "synthetic"
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "client-000",
+    "payment_verified": false,
+    "completed_projects": 30,
+    "total_spend": 16862,
+    "rating": 4.9,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-001",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 24343,
+    "rating": 4.14,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-002",
+    "payment_verified": true,
+    "completed_projects": 7,
+    "total_spend": 24291,
+    "rating": 4.15,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-003",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 23626,
+    "rating": 4.15,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-004",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 20856,
+    "rating": 4.58,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-005",
+    "payment_verified": true,
+    "completed_projects": 39,
+    "total_spend": 32013,
+    "rating": 4.07,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-006",
+    "payment_verified": true,
+    "completed_projects": 26,
+    "total_spend": 30658,
+    "rating": 4.05,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-007",
+    "payment_verified": true,
+    "completed_projects": 27,
+    "total_spend": 1433,
+    "rating": 4.85,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-008",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 39194,
+    "rating": 4.06,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-009",
+    "payment_verified": true,
+    "completed_projects": 24,
+    "total_spend": 7618,
+    "rating": 4.33,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-010",
+    "payment_verified": true,
+    "completed_projects": 3,
+    "total_spend": 14327,
+    "rating": 4.59,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-011",
+    "payment_verified": true,
+    "completed_projects": 36,
+    "total_spend": 10665,
+    "rating": 4.4,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-012",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 25406,
+    "rating": 4.07,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-013",
+    "payment_verified": false,
+    "completed_projects": 25,
+    "total_spend": 21766,
+    "rating": 4.32,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-014",
+    "payment_verified": true,
+    "completed_projects": 27,
+    "total_spend": 25917,
+    "rating": 4.81,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-015",
+    "payment_verified": true,
+    "completed_projects": 1,
+    "total_spend": 20384,
+    "rating": 4.14,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-016",
+    "payment_verified": true,
+    "completed_projects": 8,
+    "total_spend": 35869,
+    "rating": 4.41,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-017",
+    "payment_verified": true,
+    "completed_projects": 36,
+    "total_spend": 31419,
+    "rating": 4.37,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-018",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 10355,
+    "rating": 4.47,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-019",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 7288,
+    "rating": 4.6,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-020",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 6276,
+    "rating": 4.57,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-021",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 5325,
+    "rating": 4.37,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-022",
+    "payment_verified": true,
+    "completed_projects": 25,
+    "total_spend": 22799,
+    "rating": 4.73,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-023",
+    "payment_verified": true,
+    "completed_projects": 39,
+    "total_spend": 10282,
+    "rating": 4.62,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-024",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 12596,
+    "rating": 4.85,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-025",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 39122,
+    "rating": 4.13,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-026",
+    "payment_verified": false,
+    "completed_projects": 25,
+    "total_spend": 18773,
+    "rating": 4.48,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-027",
+    "payment_verified": true,
+    "completed_projects": 42,
+    "total_spend": 36318,
+    "rating": 4.53,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-028",
+    "payment_verified": true,
+    "completed_projects": 2,
+    "total_spend": 16776,
+    "rating": 4.4,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-029",
+    "payment_verified": true,
+    "completed_projects": 7,
+    "total_spend": 25933,
+    "rating": 4.54,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-030",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 31997,
+    "rating": 4.53,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-031",
+    "payment_verified": true,
+    "completed_projects": 45,
+    "total_spend": 25456,
+    "rating": 4.28,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-032",
+    "payment_verified": true,
+    "completed_projects": 15,
+    "total_spend": 33752,
+    "rating": 4.13,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-033",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 18155,
+    "rating": 4.47,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-034",
+    "payment_verified": true,
+    "completed_projects": 8,
+    "total_spend": 38151,
+    "rating": 4.4,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-035",
+    "payment_verified": true,
+    "completed_projects": 39,
+    "total_spend": 33051,
+    "rating": 4.9,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-036",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 15505,
+    "rating": 4.26,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-037",
+    "payment_verified": true,
+    "completed_projects": 43,
+    "total_spend": 27055,
+    "rating": 4.25,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-038",
+    "payment_verified": true,
+    "completed_projects": 1,
+    "total_spend": 17976,
+    "rating": 4.85,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-039",
+    "payment_verified": false,
+    "completed_projects": 3,
+    "total_spend": 24185,
+    "rating": 4.46,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-040",
+    "payment_verified": true,
+    "completed_projects": 4,
+    "total_spend": 37812,
+    "rating": 4.6,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-041",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 15524,
+    "rating": 4.25,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-042",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 25641,
+    "rating": 4.82,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-043",
+    "payment_verified": true,
+    "completed_projects": 45,
+    "total_spend": 2910,
+    "rating": 4.3,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-044",
+    "payment_verified": true,
+    "completed_projects": 1,
+    "total_spend": 9699,
+    "rating": 4.29,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-045",
+    "payment_verified": true,
+    "completed_projects": 14,
+    "total_spend": 5425,
+    "rating": 4.26,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-046",
+    "payment_verified": true,
+    "completed_projects": 28,
+    "total_spend": 15227,
+    "rating": 4.64,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-047",
+    "payment_verified": true,
+    "completed_projects": 49,
+    "total_spend": 39010,
+    "rating": 4.94,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-048",
+    "payment_verified": true,
+    "completed_projects": 5,
+    "total_spend": 39630,
+    "rating": 4.18,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-049",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 19576,
+    "rating": 4.41,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-050",
+    "payment_verified": true,
+    "completed_projects": 26,
+    "total_spend": 22442,
+    "rating": 4.8,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-051",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 10695,
+    "rating": 4.1,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-052",
+    "payment_verified": false,
+    "completed_projects": 31,
+    "total_spend": 22518,
+    "rating": 4.8,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-053",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 7842,
+    "rating": 4.39,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-054",
+    "payment_verified": true,
+    "completed_projects": 29,
+    "total_spend": 4901,
+    "rating": 4.58,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-055",
+    "payment_verified": true,
+    "completed_projects": 16,
+    "total_spend": 20136,
+    "rating": 4.62,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-056",
+    "payment_verified": true,
+    "completed_projects": 38,
+    "total_spend": 25045,
+    "rating": 4.46,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-057",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 37001,
+    "rating": 4.59,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-058",
+    "payment_verified": true,
+    "completed_projects": 5,
+    "total_spend": 32923,
+    "rating": 4.36,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-059",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 6054,
+    "rating": 4.07,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-060",
+    "payment_verified": true,
+    "completed_projects": 2,
+    "total_spend": 8380,
+    "rating": 4.04,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-061",
+    "payment_verified": true,
+    "completed_projects": 47,
+    "total_spend": 30321,
+    "rating": 4.7,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-062",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 2788,
+    "rating": 4.33,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-063",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 33096,
+    "rating": 4.93,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-064",
+    "payment_verified": true,
+    "completed_projects": 5,
+    "total_spend": 27371,
+    "rating": 4.53,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-065",
+    "payment_verified": false,
+    "completed_projects": 27,
+    "total_spend": 10475,
+    "rating": 4.65,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-066",
+    "payment_verified": true,
+    "completed_projects": 2,
+    "total_spend": 11608,
+    "rating": 4.16,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-067",
+    "payment_verified": true,
+    "completed_projects": 36,
+    "total_spend": 33613,
+    "rating": 4.49,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-068",
+    "payment_verified": true,
+    "completed_projects": 10,
+    "total_spend": 33746,
+    "rating": 4.64,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-069",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 22253,
+    "rating": 4.41,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-070",
+    "payment_verified": true,
+    "completed_projects": 4,
+    "total_spend": 6022,
+    "rating": 4.89,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-071",
+    "payment_verified": true,
+    "completed_projects": 28,
+    "total_spend": 37274,
+    "rating": 4.31,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-072",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 15119,
+    "rating": 4.5,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-073",
+    "payment_verified": true,
+    "completed_projects": 14,
+    "total_spend": 27570,
+    "rating": 4.19,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-074",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 15544,
+    "rating": 4.27,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-075",
+    "payment_verified": true,
+    "completed_projects": 14,
+    "total_spend": 20754,
+    "rating": 4.97,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-076",
+    "payment_verified": true,
+    "completed_projects": 18,
+    "total_spend": 8255,
+    "rating": 4.22,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-077",
+    "payment_verified": true,
+    "completed_projects": 23,
+    "total_spend": 23997,
+    "rating": 4.13,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-078",
+    "payment_verified": false,
+    "completed_projects": 9,
+    "total_spend": 31355,
+    "rating": 4.2,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-079",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 12947,
+    "rating": 4.3,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-080",
+    "payment_verified": true,
+    "completed_projects": 42,
+    "total_spend": 12986,
+    "rating": 4.44,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-081",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 13263,
+    "rating": 4.68,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-082",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 19032,
+    "rating": 4.03,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-083",
+    "payment_verified": true,
+    "completed_projects": 27,
+    "total_spend": 26622,
+    "rating": 4.3,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-084",
+    "payment_verified": true,
+    "completed_projects": 25,
+    "total_spend": 20661,
+    "rating": 4.96,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-085",
+    "payment_verified": true,
+    "completed_projects": 43,
+    "total_spend": 21945,
+    "rating": 4.33,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-086",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 33349,
+    "rating": 4.04,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-087",
+    "payment_verified": true,
+    "completed_projects": 45,
+    "total_spend": 6300,
+    "rating": 4.2,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-088",
+    "payment_verified": true,
+    "completed_projects": 27,
+    "total_spend": 33413,
+    "rating": 4.53,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-089",
+    "payment_verified": true,
+    "completed_projects": 10,
+    "total_spend": 14041,
+    "rating": 4.45,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-090",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 20426,
+    "rating": 4.15,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-091",
+    "payment_verified": false,
+    "completed_projects": 40,
+    "total_spend": 16283,
+    "rating": 4.62,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-092",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 33115,
+    "rating": 4.62,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-093",
+    "payment_verified": true,
+    "completed_projects": 23,
+    "total_spend": 13024,
+    "rating": 4.63,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-094",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 16500,
+    "rating": 4.37,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-095",
+    "payment_verified": true,
+    "completed_projects": 33,
+    "total_spend": 7413,
+    "rating": 4.11,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-096",
+    "payment_verified": true,
+    "completed_projects": 33,
+    "total_spend": 14118,
+    "rating": 4.71,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-097",
+    "payment_verified": true,
+    "completed_projects": 38,
+    "total_spend": 8163,
+    "rating": 4.75,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-098",
+    "payment_verified": true,
+    "completed_projects": 43,
+    "total_spend": 32891,
+    "rating": 4.78,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-099",
+    "payment_verified": true,
+    "completed_projects": 8,
+    "total_spend": 768,
+    "rating": 4.14,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-100",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 18555,
+    "rating": 4.18,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-101",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 14060,
+    "rating": 4.45,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-102",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 23274,
+    "rating": 4.19,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-103",
+    "payment_verified": true,
+    "completed_projects": 27,
+    "total_spend": 4610,
+    "rating": 4.97,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-104",
+    "payment_verified": false,
+    "completed_projects": 41,
+    "total_spend": 36107,
+    "rating": 4.31,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-105",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 6849,
+    "rating": 4.75,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-106",
+    "payment_verified": true,
+    "completed_projects": 14,
+    "total_spend": 37342,
+    "rating": 4.04,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-107",
+    "payment_verified": true,
+    "completed_projects": 17,
+    "total_spend": 16898,
+    "rating": 4.05,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-108",
+    "payment_verified": true,
+    "completed_projects": 9,
+    "total_spend": 2218,
+    "rating": 4.63,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-109",
+    "payment_verified": true,
+    "completed_projects": 3,
+    "total_spend": 21678,
+    "rating": 4.71,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-110",
+    "payment_verified": true,
+    "completed_projects": 10,
+    "total_spend": 7107,
+    "rating": 4.67,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-111",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 17248,
+    "rating": 4.36,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-112",
+    "payment_verified": true,
+    "completed_projects": 23,
+    "total_spend": 7702,
+    "rating": 4.38,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-113",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 34503,
+    "rating": 4.27,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-114",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 7023,
+    "rating": 4.17,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-115",
+    "payment_verified": true,
+    "completed_projects": 37,
+    "total_spend": 22967,
+    "rating": 4.25,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-116",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 11349,
+    "rating": 4.61,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-117",
+    "payment_verified": false,
+    "completed_projects": 38,
+    "total_spend": 33505,
+    "rating": 4.19,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-118",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 3888,
+    "rating": 4.68,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-119",
+    "payment_verified": true,
+    "completed_projects": 22,
+    "total_spend": 24642,
+    "rating": 4.31,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-120",
+    "payment_verified": true,
+    "completed_projects": 38,
+    "total_spend": 9196,
+    "rating": 4.79,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-121",
+    "payment_verified": true,
+    "completed_projects": 6,
+    "total_spend": 22639,
+    "rating": 4.73,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-122",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 39555,
+    "rating": 4.72,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-123",
+    "payment_verified": true,
+    "completed_projects": 10,
+    "total_spend": 34286,
+    "rating": 4.59,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-124",
+    "payment_verified": true,
+    "completed_projects": 43,
+    "total_spend": 26339,
+    "rating": 4.27,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-125",
+    "payment_verified": true,
+    "completed_projects": 1,
+    "total_spend": 20685,
+    "rating": 4.25,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-126",
+    "payment_verified": true,
+    "completed_projects": 7,
+    "total_spend": 1557,
+    "rating": 4.09,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-127",
+    "payment_verified": true,
+    "completed_projects": 5,
+    "total_spend": 9810,
+    "rating": 4.14,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-128",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 19849,
+    "rating": 4.43,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-129",
+    "payment_verified": true,
+    "completed_projects": 7,
+    "total_spend": 31741,
+    "rating": 4.62,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-130",
+    "payment_verified": false,
+    "completed_projects": 15,
+    "total_spend": 32968,
+    "rating": 4.18,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-131",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 10314,
+    "rating": 4.07,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-132",
+    "payment_verified": true,
+    "completed_projects": 20,
+    "total_spend": 21134,
+    "rating": 4.84,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-133",
+    "payment_verified": true,
+    "completed_projects": 34,
+    "total_spend": 34078,
+    "rating": 4.2,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-134",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 28734,
+    "rating": 4.95,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-135",
+    "payment_verified": true,
+    "completed_projects": 2,
+    "total_spend": 19998,
+    "rating": 4.38,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-136",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 35689,
+    "rating": 4.53,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-137",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 26439,
+    "rating": 4.61,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-138",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 29711,
+    "rating": 4.51,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-139",
+    "payment_verified": true,
+    "completed_projects": 16,
+    "total_spend": 21443,
+    "rating": 4.96,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-140",
+    "payment_verified": true,
+    "completed_projects": 23,
+    "total_spend": 17461,
+    "rating": 4.54,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-141",
+    "payment_verified": true,
+    "completed_projects": 16,
+    "total_spend": 28521,
+    "rating": 4.46,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-142",
+    "payment_verified": true,
+    "completed_projects": 12,
+    "total_spend": 12224,
+    "rating": 4.55,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-143",
+    "payment_verified": false,
+    "completed_projects": 21,
+    "total_spend": 8410,
+    "rating": 4.16,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-144",
+    "payment_verified": true,
+    "completed_projects": 2,
+    "total_spend": 36142,
+    "rating": 4.35,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-145",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 25379,
+    "rating": 4.85,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-146",
+    "payment_verified": true,
+    "completed_projects": 39,
+    "total_spend": 11805,
+    "rating": 4.7,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-147",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 3894,
+    "rating": 4.57,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-148",
+    "payment_verified": true,
+    "completed_projects": 31,
+    "total_spend": 9153,
+    "rating": 4.28,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-149",
+    "payment_verified": true,
+    "completed_projects": 16,
+    "total_spend": 24428,
+    "rating": 5.0,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-150",
+    "payment_verified": true,
+    "completed_projects": 18,
+    "total_spend": 4503,
+    "rating": 4.89,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-151",
+    "payment_verified": true,
+    "completed_projects": 39,
+    "total_spend": 23027,
+    "rating": 4.28,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-152",
+    "payment_verified": true,
+    "completed_projects": 33,
+    "total_spend": 28122,
+    "rating": 4.23,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-153",
+    "payment_verified": true,
+    "completed_projects": 24,
+    "total_spend": 23867,
+    "rating": 4.9,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-154",
+    "payment_verified": true,
+    "completed_projects": 44,
+    "total_spend": 32102,
+    "rating": 4.7,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-155",
+    "payment_verified": true,
+    "completed_projects": 50,
+    "total_spend": 32715,
+    "rating": 4.44,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-156",
+    "payment_verified": false,
+    "completed_projects": 9,
+    "total_spend": 27239,
+    "rating": 4.36,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-157",
+    "payment_verified": true,
+    "completed_projects": 14,
+    "total_spend": 33196,
+    "rating": 4.69,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-158",
+    "payment_verified": true,
+    "completed_projects": 47,
+    "total_spend": 9239,
+    "rating": 4.45,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-159",
+    "payment_verified": true,
+    "completed_projects": 29,
+    "total_spend": 37198,
+    "rating": 4.67,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-160",
+    "payment_verified": true,
+    "completed_projects": 35,
+    "total_spend": 32381,
+    "rating": 4.77,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-161",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 1023,
+    "rating": 4.26,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-162",
+    "payment_verified": true,
+    "completed_projects": 32,
+    "total_spend": 16014,
+    "rating": 4.75,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-163",
+    "payment_verified": true,
+    "completed_projects": 40,
+    "total_spend": 22240,
+    "rating": 4.98,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-164",
+    "payment_verified": true,
+    "completed_projects": 5,
+    "total_spend": 32330,
+    "rating": 4.87,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-165",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 14137,
+    "rating": 4.39,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-166",
+    "payment_verified": true,
+    "completed_projects": 48,
+    "total_spend": 33991,
+    "rating": 4.66,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-167",
+    "payment_verified": true,
+    "completed_projects": 18,
+    "total_spend": 25452,
+    "rating": 4.24,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-168",
+    "payment_verified": true,
+    "completed_projects": 36,
+    "total_spend": 27115,
+    "rating": 4.12,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-169",
+    "payment_verified": false,
+    "completed_projects": 21,
+    "total_spend": 25779,
+    "rating": 4.22,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-170",
+    "payment_verified": true,
+    "completed_projects": 46,
+    "total_spend": 21816,
+    "rating": 4.18,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-171",
+    "payment_verified": true,
+    "completed_projects": 26,
+    "total_spend": 29301,
+    "rating": 4.09,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-172",
+    "payment_verified": true,
+    "completed_projects": 1,
+    "total_spend": 3984,
+    "rating": 4.82,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-173",
+    "payment_verified": true,
+    "completed_projects": 3,
+    "total_spend": 19700,
+    "rating": 4.4,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-174",
+    "payment_verified": true,
+    "completed_projects": 34,
+    "total_spend": 15226,
+    "rating": 4.91,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-175",
+    "payment_verified": true,
+    "completed_projects": 21,
+    "total_spend": 38230,
+    "rating": 4.08,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-176",
+    "payment_verified": true,
+    "completed_projects": 19,
+    "total_spend": 11196,
+    "rating": 4.43,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-177",
+    "payment_verified": true,
+    "completed_projects": 18,
+    "total_spend": 31955,
+    "rating": 4.99,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-178",
+    "payment_verified": true,
+    "completed_projects": 23,
+    "total_spend": 32605,
+    "rating": 4.92,
+    "provenance": "synthetic",
+    "synthetic": true
+  },
+  {
+    "id": "client-179",
+    "payment_verified": true,
+    "completed_projects": 12,
+    "total_spend": 19805,
+    "rating": 4.44,
+    "provenance": "synthetic",
+    "synthetic": true
+  }
+]
