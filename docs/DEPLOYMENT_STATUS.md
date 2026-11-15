@@ -3,8 +3,8 @@
 - Web app: https://gigbid-wr80.onrender.com
 - Portfolio MCP: https://gigbid-wr80.onrender.com/portfolio/mcp
 - Source: https://github.com/MominMunir/agentic-a2-0854
-- Current deployed revision: `bf76c656639db7a6d28a031126f40e6ef6636260`
-  (font update verified in the live UI).
+- Current deployed revision: `dafaee187b70ea2ed049422d2badc78eb3ac976d`
+  (registration fix verified on the public app).
 - Full backend/MCP/storage verification revision:
   `09dbf7627a12fe4400d899b4f558eee96078e155`.
 - Plans checked in the dashboards: Render web **Free**, Render Key Value **Free**,
@@ -23,6 +23,17 @@ was checked after Render reported the new revision Live. The base is now 16 px
 and its main heading 34 px. The same saved draft remains awaiting approval.
 See `evals/results/ui_font_update.json`; this UI check is separate from the
 earlier full backend verification and does not claim a new model experiment.
+
+Registration was subsequently repaired by batching starter-data inserts and
+running synchronous registration outside the main event loop. The local seed
+diagnostic fell from 999 statements to two. All 37 backend tests and six browser
+journeys passed. A fresh public account registered in 2.26 seconds, logged in,
+received 330 evidence records and three messages, and had 120 simulated Connects
+with none spent. Four health checks completed during registration, with a
+maximum observed response time of 0.89 seconds. Duplicate registration returned
+409, cross-tenant access to the reviewer run returned 404, and the original
+reviewer draft remained unchanged and awaiting approval. No proposals/messages
+were sent. See `evals/results/registration.json` and `registration_local.json`.
 
 The original two-process compact profile exceeded 512 MiB when sign-in allocated
 Argon2 memory after embeddings warmed. Sharing the background queue worker with

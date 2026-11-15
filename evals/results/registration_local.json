@@ -1,0 +1,13 @@
+{
+  "scope": "Local in-memory SQLite seed statement count; excludes user insert and network latency",
+  "previous_measured_seed_statements": 999,
+  "current_seed_statements": 2,
+  "current_statement_types": {
+    "SELECT": 1,
+    "INSERT": 1
+  },
+  "records_seeded": 334,
+  "backend_tests_passed": 37,
+  "browser_journeys_passed": 6,
+  "main_thread_health_regression_passed": true
+}
