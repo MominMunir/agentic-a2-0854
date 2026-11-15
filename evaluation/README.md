@@ -25,6 +25,11 @@ includes failures, with completed/draft latency separately recorded. Cost is a
 public-list-price estimate from returned input/output token counts. Missing usage
 on failed calls is unknown, not zero; this is not an invoice.
 
+For publication, em dash punctuation in one recorded cover letter and its
+annotation copies was normalized. The affected JSONL record carries a
+`publication_text_normalization` note. Original text remains in prior Git
+history; all scores, usage, latencies and cost observations are unchanged.
+
 The recorded architecture benchmark uses legacy requirement queries and predates
 the whole-job retrieval, source-freshness, Connects approval, and fallback fixes.
 The runner retains `--match-query-mode legacy` to revisit that diagnostic behavior;

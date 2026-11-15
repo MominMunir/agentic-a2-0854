@@ -18,6 +18,10 @@ def split_claims(text):
     return [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-Z"“])|\n\s*\n', text) if s.strip()]
 
 
+def grounding_text(text):
+    return re.sub(r"\s+", " ", text.replace(chr(8212), " - ")).lower()
+
+
 def verify(text, evidence):
     by_id = {e["id"]: e for e in evidence}
     claims = []
@@ -29,11 +33,11 @@ def verify(text, evidence):
         if FORBIDDEN.search(sentence):
             status, reason = "unsupported", "Contact details, off-platform language or guarantee"
         elif citations or PAST.search(sentence) or not FUTURE.search(sentence):
-            normalized = re.sub(r"\s+", " ", content).lower().rstrip(".")
+            normalized = grounding_text(content).rstrip(".")
             # Exact extractive grounding is conservative: paraphrases require review.
             if not references:
                 status, reason = "unsupported", "Experience claim lacks a valid evidence citation"
-            elif not any(normalized in re.sub(r"\s+", " ", e["text"]).lower() for e in references):
+            elif not any(normalized in grounding_text(e["text"]) for e in references):
                 status, reason = (
                     "partly_supported",
                     "Cited text does not entail the complete sentence verbatim",

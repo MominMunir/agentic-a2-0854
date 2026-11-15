@@ -1,5 +1,6 @@
 import asyncio
 import json
+import re
 import time
 
 import httpx
@@ -9,6 +10,16 @@ from gigbid_core.config import SOURCE_ROOT, policy, settings
 
 class ModelUnavailable(ConnectionError):
     pass
+
+
+def _normalize_generated_text(value):
+    if isinstance(value, str):
+        return re.sub(r"[ \t]*" + chr(8212) + r"[ \t]*", " - ", value)
+    if isinstance(value, list):
+        return [_normalize_generated_text(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _normalize_generated_text(item) for key, item in value.items()}
+    return value
 
 
 async def generate(node, payload, schema=None, profile=None):
@@ -103,7 +114,11 @@ async def generate(node, payload, schema=None, profile=None):
                         usd_estimate=usd,
                     ):
                         pass
-                    return (schema.model_validate_json(content) if schema else content), observation
+                    return (
+                        schema.model_validate(_normalize_generated_text(json.loads(content)))
+                        if schema
+                        else _normalize_generated_text(content)
+                    ), observation
                 except httpx.HTTPStatusError:
                     raise ModelUnavailable(
                         "Open model rejected the request; check provider configuration"

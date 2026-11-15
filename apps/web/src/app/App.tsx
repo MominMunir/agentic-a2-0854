@@ -1219,7 +1219,7 @@ function Analytics() {
               <span>Confirmed reply rate</span>
               <strong>
                 {data.reply_rate === null
-                  ? "—"
+                  ? "-"
                   : Math.round(data.reply_rate * 100) + "%"}
                 <small>{data.outcomes.length} recorded outcomes</small>
               </strong>
@@ -1228,7 +1228,7 @@ function Analytics() {
               <span>Confirmed hire rate</span>
               <strong>
                 {data.hire_rate === null
-                  ? "—"
+                  ? "-"
                   : Math.round(data.hire_rate * 100) + "%"}
                 <small>user-confirmed data</small>
               </strong>
@@ -1239,11 +1239,11 @@ function Analytics() {
               <h2>Agent performance</h2>
               <div className="matrix-row">
                 <span>Median run latency</span>
-                <strong>{data.p50_seconds?.toFixed(2) ?? "—"} s</strong>
+                <strong>{data.p50_seconds?.toFixed(2) ?? "-"} s</strong>
               </div>
               <div className="matrix-row">
                 <span>95th percentile latency</span>
-                <strong>{data.p95_seconds?.toFixed(2) ?? "—"} s</strong>
+                <strong>{data.p95_seconds?.toFixed(2) ?? "-"} s</strong>
               </div>
               <div className="matrix-row">
                 <span>Tokens measured</span>

@@ -31,6 +31,8 @@ def source_files():
             and not (relative == Path("data") and d in {"raw", "runtime", "processed", "uploads"})
         ]
         for filename in files:
+            if filename.startswith("~$"):
+                continue
             path = Path(directory) / filename
             if (not filename.startswith(".env") or filename == ".env.example") and path.suffix not in {
                 ".pyc",
@@ -43,6 +45,7 @@ def source_files():
 
 def main():
     suspicious = []
+    punctuation = []
     patterns = [
         r"gsk_[A-Za-z0-9]{25,}",
         r"gh[pousr]_[A-Za-z0-9]{25,}",
@@ -52,6 +55,7 @@ def main():
     for path in source_files():
         if path.stat().st_size > 10_000_000 or path.suffix in {
             ".pdf",
+            ".docx",
             ".png",
             ".gif",
             ".zip",
@@ -60,10 +64,24 @@ def main():
         }:
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
+        lowered = text.lower()
+        if chr(8212) in text or any(
+            pattern in lowered
+            for pattern in [
+                chr(92) + "u2014",
+                chr(92) + "u{2014}",
+                "&" + "mdash;",
+                "&" + "#8212;",
+                "&" + "#x2014;",
+            ]
+        ):
+            punctuation.append(str(path.relative_to(ROOT)))
         if any(re.search(pattern, text) for pattern in patterns):
             suspicious.append(str(path.relative_to(ROOT)))
     if suspicious:
         raise SystemExit("Potential credentials in release source: " + ", ".join(suspicious))
+    if punctuation:
+        raise SystemExit("Replace em dash punctuation in release source: " + ", ".join(punctuation))
     for path in (ROOT / "gigsim").rglob("*"):
         if path.is_file() and path.name != "README.md":
             raise SystemExit("Instructor directory changed: verify its immutable baseline before release")

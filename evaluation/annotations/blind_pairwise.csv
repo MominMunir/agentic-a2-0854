@@ -13,7 +13,7 @@ Best regards,
 [Your Name]",,
 pair-1,"{""id"": ""syn-job-002"", ""title"": ""Retail: Image quality classifier"", ""description"": ""We need a image quality classifier for retail. Deliver reproducible work and clear documentation. Required: PyTorch, Python."", ""required_skills"": [""PyTorch"", ""Python""], ""budget_min"": 841.75, ""budget_max"": 1295, ""duration_days"": 14, ""screening_questions"": [""How would you validate the result?""], ""connects_cost"": 12, ""client_id"": ""client-002"", ""category"": ""ml"", ""industry"": ""retail"", ""provenance"": ""synthetic"", ""synthetic"": true}","Hello,
 
-I’m excited to help you build a robust image quality classifier for your retail use case. In a recent project for a retail client I **trained an image classifier with reproducible preprocessing and per‑class evaluation**【ml-project-2-0-case_study】, using PyTorch and Python—exactly the stack you require. I will deliver clean, well‑documented code, set up a reproducible pipeline, and provide thorough validation metrics (e.g., cross‑validation, confusion matrices, and quality‑specific thresholds) to ensure reliable performance.
+I’m excited to help you build a robust image quality classifier for your retail use case. In a recent project for a retail client I **trained an image classifier with reproducible preprocessing and per‑class evaluation**【ml-project-2-0-case_study】, using PyTorch and Python, exactly the stack you require. I will deliver clean, well‑documented code, set up a reproducible pipeline, and provide thorough validation metrics (e.g., cross‑validation, confusion matrices, and quality‑specific thresholds) to ensure reliable performance.
 
 My approach includes:
 - Data cleaning and augmentation tailored to retail imagery.

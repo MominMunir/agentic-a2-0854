@@ -58,6 +58,12 @@ def test_secret_boundaries():
     assert fingerprint({"a": 1, "b": 2}) == fingerprint({"b": 2, "a": 1})
 
 
+def test_dash_formatting_preserves_grounding_without_changing_numbers():
+    evidence = [{"id": "e1", "text": "Built a Python pipeline" + chr(8212) + "reduced latency by 20%."}]
+    assert verify("Built a Python pipeline - reduced latency by 20%. [e1]", evidence)["unsupported_before"] == 0
+    assert verify("Built a Python pipeline - reduced latency by 90%. [e1]", evidence)["unsupported_before"] == 1
+
+
 def test_structured_redaction_preserves_numeric_metrics_and_dates():
     import json
 
