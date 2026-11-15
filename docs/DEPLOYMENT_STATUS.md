@@ -3,8 +3,8 @@
 - Web app: https://gigbid-wr80.onrender.com
 - Portfolio MCP: https://gigbid-wr80.onrender.com/portfolio/mcp
 - Source: https://github.com/MominMunir/agentic-a2-0854
-- Current deployed revision: `dafaee187b70ea2ed049422d2badc78eb3ac976d`
-  (registration fix verified on the public app).
+- Current deployed revision: `6892af52d0b0da3eda39dff879da6301c3722275`
+  (punctuation cleanup verified on the public app).
 - Full backend/MCP/storage verification revision:
   `09dbf7627a12fe4400d899b4f558eee96078e155`.
 - Plans checked in the dashboards: Render web **Free**, Render Key Value **Free**,
@@ -34,6 +34,14 @@ maximum observed response time of 0.89 seconds. Duplicate registration returned
 409, cross-tenant access to the reviewer run returned 404, and the original
 reviewer draft remained unchanged and awaiting approval. No proposals/messages
 were sent. See `evals/results/registration.json` and `registration_local.json`.
+
+The punctuation cleanup removes em dash characters from project text, the
+frontend title and analytics placeholders. Future model responses are normalized
+before structured validation, and grounding compares equivalent dash formatting.
+The source gate prevents reintroduction. Both report formats already contained
+no em dashes. All 38 backend tests and six browser journeys passed; the live
+title and analytics placeholders were checked after deployment. Recorded
+numerical observations were unchanged. See `evals/results/punctuation_cleanup.json`.
 
 The original two-process compact profile exceeded 512 MiB when sign-in allocated
 Argon2 memory after embeddings warmed. Sharing the background queue worker with

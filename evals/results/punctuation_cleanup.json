@@ -1,0 +1,22 @@
+{
+  "app_url": "https://gigbid-wr80.onrender.com",
+  "runtime_commit": "6892af52d0b0da3eda39dff879da6301c3722275",
+  "render_deployment_id": "dep-dbsuf7mk1f9s73ab8r1g",
+  "checked_date": "2026-11-15",
+  "render_status": "Deploy succeeded | Live",
+  "source_em_dash_count": 0,
+  "built_frontend_em_dash_count": 0,
+  "pdf_report_em_dash_count": 0,
+  "word_report_em_dash_count": 0,
+  "live_title": "GigBid - Good work starts with proof",
+  "live_analytics_empty_value": "-",
+  "future_model_text_normalized": true,
+  "grounding_numeric_mutation_rejected": true,
+  "historical_numeric_observations_unchanged": true,
+  "backend_tests_passed": 38,
+  "browser_journeys_passed": 6,
+  "ci_url": "https://github.com/MominMunir/agentic-a2-0854/actions/runs/43739544611",
+  "ci_conclusion": "success",
+  "passed": true,
+  "scope": "Project release source, current built frontend and report artifacts. Dependencies, private runtime storage and prior Git history are excluded."
+}
